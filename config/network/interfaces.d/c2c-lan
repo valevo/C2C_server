@@ -1,0 +1,8 @@
+# Static IP on the installation LAN. Deploy to /etc/network/interfaces.d/
+# and remove the installer's stanza for the interface from
+# /etc/network/interfaces (see docs/03-network.md).
+# Interface name: check with `ip link` (NUC8BEH onboard NIC is usually eno1).
+auto eno1
+iface eno1 inet static
+    address 192.168.10.10/24
+    gateway 192.168.10.1

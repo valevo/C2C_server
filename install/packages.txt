@@ -1,0 +1,27 @@
+# apt packages installed by bootstrap.sh (one per line, # for comments)
+
+# base
+git
+curl
+htop
+unattended-upgrades
+
+# database
+sqlite3
+
+# maintenance tunnel
+autossh
+openssh-server
+
+# firewall
+ufw
+
+# minimal graphical stack for the 3 screens
+xserver-xorg
+xinit
+x11-xserver-utils
+unclutter
+
+# app runtime
+python3-venv
+python3-pip

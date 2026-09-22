@@ -1,0 +1,25 @@
+# Input API + database. Deploy to /etc/systemd/system/.
+# Adjust ExecStart to the actual application entry point in /opt/c2c.
+[Unit]
+Description=Comment2Conversation input server (API + SQLite)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=c2c
+Group=c2c
+EnvironmentFile=/etc/c2c/c2c.env
+WorkingDirectory=/opt/c2c
+ExecStart=/opt/c2c/.venv/bin/python -m c2c.server
+Restart=always
+RestartSec=3
+
+# Data dir (SQLite + backups); systemd creates/owns /var/lib/c2c
+StateDirectory=c2c
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/c2c
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

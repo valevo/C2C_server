@@ -1,0 +1,11 @@
+# Nightly database backup. Deploy with c2c-backup.service, then:
+#   systemctl enable --now c2c-backup.timer
+[Unit]
+Description=Nightly Comment2Conversation DB backup
+
+[Timer]
+OnCalendar=*-*-* 04:30
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Comment2Conversation DB backup
+
+[Service]
+Type=oneshot
+User=c2c
+Group=c2c
+EnvironmentFile=/etc/c2c/c2c.env
+ExecStart=/opt/c2c/scripts/backup-db.sh

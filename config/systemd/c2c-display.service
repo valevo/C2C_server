@@ -1,0 +1,24 @@
+# X session on tty1 rendering to the 3 screens. Deploy to /etc/systemd/system/.
+# xinit runs scripts/setup-displays.sh (installed to /opt/c2c/scripts/) which
+# arranges the outputs, then starts the render app fullscreen.
+[Unit]
+Description=Comment2Conversation display session (3 screens)
+After=systemd-user-sessions.service c2c-server.service
+Wants=c2c-server.service
+Conflicts=getty@tty1.service
+After=getty@tty1.service
+
+[Service]
+User=c2c
+Group=c2c
+PAMName=login
+TTYPath=/dev/tty1
+StandardInput=tty
+UtmpIdentifier=tty1
+EnvironmentFile=/etc/c2c/c2c.env
+ExecStart=/usr/bin/xinit /opt/c2c/scripts/setup-displays.sh -- :0 vt1 -nolisten tcp -nocursor
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=graphical.target
