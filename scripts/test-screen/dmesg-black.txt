@@ -1,0 +1,1723 @@
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4: [8086:9dbc] type 01 class 0x060400 PCIe Root Port
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4: PCI bridge to [bus 02-3a]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4: PME# supported from D0 D3hot D3cold
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4: PTM enabled (root), 4ns granularity
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.0: [8086:9db0] type 01 class 0x060400 PCIe Root Port
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.0: PCI bridge to [bus 3b]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.0:   bridge window [mem 0xa8a00000-0xa8afffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.0: PTM enabled (root), 4ns granularity
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6: [8086:9db6] type 01 class 0x060400 PCIe Root Port
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6: PCI bridge to [bus 3c]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6:   bridge window [io  0x3000-0x3fff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6:   bridge window [mem 0xa8000000-0xa89fffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6:   bridge window [mem 0x4022100000-0x4022afffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6: PME# supported from D0 D3hot D3cold
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6: PTM enabled (root), 4ns granularity
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.0: [8086:9d84] type 00 class 0x060100 conventional PCI endpoint
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.3: [8086:9dc8] type 00 class 0x040380 conventional PCI endpoint
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.3: BAR 0 [mem 0xa8b20000-0xa8b23fff 64bit]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.3: BAR 4 [mem 0x4022b00000-0x4022bfffff 64bit]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.3: PME# supported from D3hot D3cold
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.4: [8086:9da3] type 00 class 0x0c0500 conventional PCI endpoint
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.4: BAR 0 [mem 0x4022c16000-0x4022c160ff 64bit]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.4: BAR 4 [io  0xefa0-0xefbf]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.5: [8086:9da4] type 00 class 0x0c8000 conventional PCI endpoint
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.5: BAR 0 [mem 0xfe010000-0xfe010fff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.6: [8086:15be] type 00 class 0x020000 conventional PCI endpoint
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.6: BAR 0 [mem 0xa8b00000-0xa8b1ffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.6: PME# supported from D0 D3hot D3cold
+[Wed Sep 23 15:58:45 2026] acpiphp: Slot [1] registered
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.0: PCI bridge to [bus 01]
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: [8086:15da] type 01 class 0x060400 PCIe Switch Upstream Port
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: enabling Extended Tags
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: supports D1 D2
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4: PCI bridge to [bus 02-3a]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:00.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 15:58:45 2026] pci 0000:03:00.0: PCI bridge to [bus 04]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:00.0:   bridge window [mem 0xa6000000-0xa60fffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:00.0: enabling Extended Tags
+[Wed Sep 23 15:58:45 2026] pci 0000:03:00.0: supports D1 D2
+[Wed Sep 23 15:58:45 2026] pci 0000:03:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0: PCI bridge to [bus 05-39]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0:   bridge window [mem 0x90000000-0xa5efffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0: enabling Extended Tags
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0: supports D1 D2
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 15:58:45 2026] pci 0000:03:02.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 15:58:45 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:02.0:   bridge window [mem 0xa5f00000-0xa5ffffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:02.0: enabling Extended Tags
+[Wed Sep 23 15:58:45 2026] pci 0000:03:02.0: supports D1 D2
+[Wed Sep 23 15:58:45 2026] pci 0000:03:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:00.0: PCI bridge to [bus 04]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0: PCI bridge to [bus 05-39]
+[Wed Sep 23 15:58:45 2026] pci 0000:3a:00.0: [8086:15db] type 00 class 0x0c0330 PCIe Endpoint
+[Wed Sep 23 15:58:45 2026] pci 0000:3a:00.0: BAR 0 [mem 0xa5f00000-0xa5f0ffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:3a:00.0: enabling Extended Tags
+[Wed Sep 23 15:58:45 2026] pci 0000:3a:00.0: supports D1 D2
+[Wed Sep 23 15:58:45 2026] pci 0000:3a:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 15:58:45 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 15:58:45 2026] pci 0000:3b:00.0: [15b7:5035] type 00 class 0x010802 PCIe Endpoint
+[Wed Sep 23 15:58:45 2026] pci 0000:3b:00.0: BAR 0 [mem 0xa8a00000-0xa8a03fff 64bit]
+[Wed Sep 23 15:58:45 2026] pci 0000:3b:00.0: 31.504 Gb/s available PCIe bandwidth, limited by 8.0 GT/s PCIe x4 link at 0000:00:1d.0 (capable of 63.012 Gb/s with 16.0 GT/s PCIe x4 link)
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.0: PCI bridge to [bus 3b]
+[Wed Sep 23 15:58:45 2026] pci 0000:3c:00.0: [10ec:522a] type 00 class 0xff0000 PCIe Endpoint
+[Wed Sep 23 15:58:45 2026] pci 0000:3c:00.0: BAR 0 [mem 0xa8000000-0xa8000fff]
+[Wed Sep 23 15:58:45 2026] pci 0000:3c:00.0: supports D1 D2
+[Wed Sep 23 15:58:45 2026] pci 0000:3c:00.0: PME# supported from D1 D2 D3hot D3cold
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6: ASPM: current common clock configuration is inconsistent, reconfiguring
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6: PCI bridge to [bus 3c]
+[Wed Sep 23 15:58:45 2026] ACPI: PCI: Interrupt link LNKA configured for IRQ 0
+[Wed Sep 23 15:58:45 2026] ACPI: PCI: Interrupt link LNKB configured for IRQ 1
+[Wed Sep 23 15:58:45 2026] ACPI: PCI: Interrupt link LNKC configured for IRQ 0
+[Wed Sep 23 15:58:45 2026] ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+[Wed Sep 23 15:58:45 2026] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+[Wed Sep 23 15:58:45 2026] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+[Wed Sep 23 15:58:45 2026] ACPI: PCI: Interrupt link LNKG configured for IRQ 0
+[Wed Sep 23 15:58:45 2026] ACPI: PCI: Interrupt link LNKH configured for IRQ 0
+[Wed Sep 23 15:58:45 2026] ACPI: EC: interrupt unblocked
+[Wed Sep 23 15:58:45 2026] ACPI: EC: event unblocked
+[Wed Sep 23 15:58:45 2026] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+[Wed Sep 23 15:58:45 2026] ACPI: EC: GPE=0x14
+[Wed Sep 23 15:58:45 2026] ACPI: \_SB_.PCI0.LPCB.H_EC: Boot DSDT EC initialization complete
+[Wed Sep 23 15:58:45 2026] ACPI: \_SB_.PCI0.LPCB.H_EC: EC: Used to handle transactions and events
+[Wed Sep 23 15:58:45 2026] iommu: Default domain type: Translated
+[Wed Sep 23 15:58:45 2026] iommu: DMA domain TLB invalidation policy: lazy mode
+[Wed Sep 23 15:58:45 2026] pps_core: LinuxPPS API ver. 1 registered
+[Wed Sep 23 15:58:45 2026] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[Wed Sep 23 15:58:45 2026] PTP clock support registered
+[Wed Sep 23 15:58:45 2026] EDAC MC: Ver: 3.0.0
+[Wed Sep 23 15:58:45 2026] efivars: Registered efivars operations
+[Wed Sep 23 15:58:45 2026] NetLabel: Initializing
+[Wed Sep 23 15:58:45 2026] NetLabel:  domain hash size = 128
+[Wed Sep 23 15:58:45 2026] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[Wed Sep 23 15:58:45 2026] NetLabel:  unlabeled traffic allowed by default
+[Wed Sep 23 15:58:45 2026] PCI: Using ACPI for IRQ routing
+[Wed Sep 23 15:58:45 2026] PCI: pci_cache_line_size set to 64 bytes
+[Wed Sep 23 15:58:45 2026] e820: reserve RAM buffer [mem 0x0009f000-0x0009ffff]
+[Wed Sep 23 15:58:45 2026] e820: reserve RAM buffer [mem 0x6f9d0018-0x6fffffff]
+[Wed Sep 23 15:58:45 2026] e820: reserve RAM buffer [mem 0x7604c000-0x77ffffff]
+[Wed Sep 23 15:58:45 2026] e820: reserve RAM buffer [mem 0x79d35000-0x7bffffff]
+[Wed Sep 23 15:58:45 2026] e820: reserve RAM buffer [mem 0x7ac0f000-0x7bffffff]
+[Wed Sep 23 15:58:45 2026] e820: reserve RAM buffer [mem 0x87e000000-0x87fffffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[Wed Sep 23 15:58:45 2026] pci 0000:00:02.0: vgaarb: bridge control possible
+[Wed Sep 23 15:58:45 2026] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[Wed Sep 23 15:58:45 2026] vgaarb: loaded
+[Wed Sep 23 15:58:45 2026] clocksource: Switched to clocksource tsc-early
+[Wed Sep 23 15:58:45 2026] VFS: Disk quotas dquot_6.6.0
+[Wed Sep 23 15:58:45 2026] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[Wed Sep 23 15:58:45 2026] AppArmor: AppArmor Filesystem Enabled
+[Wed Sep 23 15:58:45 2026] pnp: PnP ACPI init
+[Wed Sep 23 15:58:45 2026] system 00:00: [mem 0x40000000-0x403fffff] could not be reserved
+[Wed Sep 23 15:58:45 2026] system 00:01: [io  0x0a00-0x0a1f] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:01: [io  0x0a20-0x0a2f] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:01: [io  0x0a30-0x0a3f] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:01: [io  0x0a40-0x0a4f] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:01: [io  0x0a50-0x0a5f] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:01: [io  0x0a60-0x0a6f] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:02: [io  0x0680-0x069f] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:02: [io  0x164e-0x164f] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:03: [mem 0xfed10000-0xfed17fff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:03: [mem 0xfed18000-0xfed18fff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:03: [mem 0xfed19000-0xfed19fff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:03: [mem 0xe0000000-0xefffffff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:03: [mem 0xfed20000-0xfed3ffff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:03: [mem 0xfed90000-0xfed93fff] could not be reserved
+[Wed Sep 23 15:58:45 2026] system 00:03: [mem 0xfed45000-0xfed8ffff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:03: [mem 0xfee00000-0xfeefffff] could not be reserved
+[Wed Sep 23 15:58:45 2026] system 00:04: [io  0x1800-0x18fe] could not be reserved
+[Wed Sep 23 15:58:45 2026] system 00:04: [mem 0xfd000000-0xfd69ffff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:04: [mem 0xfd6b0000-0xfd6cffff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:04: [mem 0xfd6f0000-0xfdffffff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:04: [mem 0xfe000000-0xfe01ffff] could not be reserved
+[Wed Sep 23 15:58:45 2026] system 00:04: [mem 0xfe200000-0xfe7fffff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:04: [mem 0xff000000-0xffffffff] has been reserved
+[Wed Sep 23 15:58:45 2026] system 00:05: [io  0x2000-0x20fe] has been reserved
+[Wed Sep 23 15:58:45 2026] pnp: PnP ACPI: found 7 devices
+[Wed Sep 23 15:58:45 2026] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[Wed Sep 23 15:58:45 2026] NET: Registered PF_INET protocol family
+[Wed Sep 23 15:58:45 2026] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[Wed Sep 23 15:58:45 2026] tcp_listen_portaddr_hash hash table entries: 16384 (order: 6, 262144 bytes, linear)
+[Wed Sep 23 15:58:45 2026] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[Wed Sep 23 15:58:45 2026] TCP established hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[Wed Sep 23 15:58:45 2026] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[Wed Sep 23 15:58:45 2026] TCP: Hash tables configured (established 262144 bind 65536)
+[Wed Sep 23 15:58:45 2026] MPTCP token hash table entries: 32768 (order: 8, 786432 bytes, linear)
+[Wed Sep 23 15:58:45 2026] UDP hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[Wed Sep 23 15:58:45 2026] UDP-Lite hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[Wed Sep 23 15:58:45 2026] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[Wed Sep 23 15:58:45 2026] NET: Registered PF_XDP protocol family
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0: bridge window [io  0x1000-0x0fff] to [bus 05-39] add_size 1000
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: bridge window [io  0x1000-0x0fff] to [bus 03-3a] add_size 1000
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4: bridge window [io  0x1000-0x0fff] to [bus 02-3a] add_size 2000
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4: bridge window [io  0x5000-0x6fff]: assigned
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.0: PCI bridge to [bus 01]
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: bridge window [io  0x5000-0x5fff]: assigned
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0: bridge window [io  0x5000-0x5fff]: assigned
+[Wed Sep 23 15:58:45 2026] pci 0000:03:00.0: PCI bridge to [bus 04]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:00.0:   bridge window [mem 0xa6000000-0xa60fffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0: PCI bridge to [bus 05-39]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0:   bridge window [io  0x5000-0x5fff]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0:   bridge window [mem 0x90000000-0xa5efffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 15:58:45 2026] pci 0000:03:02.0:   bridge window [mem 0xa5f00000-0xa5ffffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0:   bridge window [io  0x5000-0x5fff]
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4: PCI bridge to [bus 02-3a]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4:   bridge window [io  0x5000-0x6fff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.0: PCI bridge to [bus 3b]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.0:   bridge window [mem 0xa8a00000-0xa8afffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6: PCI bridge to [bus 3c]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6:   bridge window [io  0x3000-0x3fff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6:   bridge window [mem 0xa8000000-0xa89fffff]
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6:   bridge window [mem 0x4022100000-0x4022afffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:00: resource 7 [mem 0x000e0000-0x000effff window]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:00: resource 8 [mem 0x80000000-0xdfffffff window]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:00: resource 9 [mem 0x4000000000-0x7fffffffff window]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:00: resource 10 [mem 0xfc800000-0xfe7fffff window]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:02: resource 0 [io  0x5000-0x6fff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:02: resource 1 [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:02: resource 2 [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:03: resource 0 [io  0x5000-0x5fff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:03: resource 1 [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:03: resource 2 [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:04: resource 1 [mem 0xa6000000-0xa60fffff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:05: resource 0 [io  0x5000-0x5fff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:05: resource 1 [mem 0x90000000-0xa5efffff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:05: resource 2 [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:3a: resource 1 [mem 0xa5f00000-0xa5ffffff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:3b: resource 1 [mem 0xa8a00000-0xa8afffff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:3c: resource 0 [io  0x3000-0x3fff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:3c: resource 1 [mem 0xa8000000-0xa89fffff]
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:3c: resource 2 [mem 0x4022100000-0x4022afffff 64bit pref]
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: CLS mismatch (64 != 128), using 64 bytes
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: enabling device (0002 -> 0003)
+[Wed Sep 23 15:58:45 2026] DMAR: No ATSR found
+[Wed Sep 23 15:58:45 2026] DMAR: No SATC found
+[Wed Sep 23 15:58:45 2026] DMAR: IOMMU feature fl1gp_support inconsistent
+[Wed Sep 23 15:58:45 2026] DMAR: IOMMU feature pgsel_inv inconsistent
+[Wed Sep 23 15:58:45 2026] DMAR: IOMMU feature nwfs inconsistent
+[Wed Sep 23 15:58:45 2026] DMAR: IOMMU feature pasid inconsistent
+[Wed Sep 23 15:58:45 2026] DMAR: IOMMU feature eafs inconsistent
+[Wed Sep 23 15:58:45 2026] DMAR: IOMMU feature prs inconsistent
+[Wed Sep 23 15:58:45 2026] DMAR: IOMMU feature nest inconsistent
+[Wed Sep 23 15:58:45 2026] DMAR: IOMMU feature mts inconsistent
+[Wed Sep 23 15:58:45 2026] DMAR: IOMMU feature sc_support inconsistent
+[Wed Sep 23 15:58:45 2026] DMAR: IOMMU feature dev_iotlb_support inconsistent
+[Wed Sep 23 15:58:45 2026] DMAR: dmar0: Using Queued invalidation
+[Wed Sep 23 15:58:45 2026] DMAR: dmar1: Using Queued invalidation
+[Wed Sep 23 15:58:45 2026] Trying to unpack rootfs image as initramfs...
+[Wed Sep 23 15:58:45 2026] pci 0000:00:02.0: Adding to iommu group 0
+[Wed Sep 23 15:58:45 2026] pci 0000:00:00.0: Adding to iommu group 1
+[Wed Sep 23 15:58:45 2026] pci 0000:00:08.0: Adding to iommu group 2
+[Wed Sep 23 15:58:45 2026] pci 0000:00:12.0: Adding to iommu group 3
+[Wed Sep 23 15:58:45 2026] pci 0000:00:14.0: Adding to iommu group 4
+[Wed Sep 23 15:58:45 2026] pci 0000:00:14.2: Adding to iommu group 4
+[Wed Sep 23 15:58:45 2026] pci 0000:00:14.3: Adding to iommu group 5
+[Wed Sep 23 15:58:45 2026] pci 0000:00:16.0: Adding to iommu group 6
+[Wed Sep 23 15:58:45 2026] pci 0000:00:17.0: Adding to iommu group 7
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.0: Adding to iommu group 8
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1c.4: Adding to iommu group 9
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.0: Adding to iommu group 10
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1d.6: Adding to iommu group 11
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.0: Adding to iommu group 12
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.3: Adding to iommu group 12
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.4: Adding to iommu group 12
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.5: Adding to iommu group 12
+[Wed Sep 23 15:58:45 2026] pci 0000:00:1f.6: Adding to iommu group 12
+[Wed Sep 23 15:58:45 2026] pci 0000:02:00.0: Adding to iommu group 13
+[Wed Sep 23 15:58:45 2026] pci 0000:03:00.0: Adding to iommu group 14
+[Wed Sep 23 15:58:45 2026] pci 0000:03:01.0: Adding to iommu group 15
+[Wed Sep 23 15:58:45 2026] pci 0000:03:02.0: Adding to iommu group 16
+[Wed Sep 23 15:58:45 2026] pci 0000:3a:00.0: Adding to iommu group 16
+[Wed Sep 23 15:58:45 2026] pci 0000:3b:00.0: Adding to iommu group 17
+[Wed Sep 23 15:58:45 2026] pci 0000:3c:00.0: Adding to iommu group 18
+[Wed Sep 23 15:58:45 2026] DMAR: Intel(R) Virtualization Technology for Directed I/O
+[Wed Sep 23 15:58:45 2026] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[Wed Sep 23 15:58:45 2026] software IO TLB: mapped [mem 0x000000007204c000-0x000000007604c000] (64MB)
+[Wed Sep 23 15:58:45 2026] platform rtc_cmos: registered platform RTC device (no PNP device found)
+[Wed Sep 23 15:58:45 2026] Initialise system trusted keyrings
+[Wed Sep 23 15:58:45 2026] Key type blacklist registered
+[Wed Sep 23 15:58:45 2026] workingset: timestamp_bits=36 max_order=23 bucket_order=0
+[Wed Sep 23 15:58:45 2026] zbud: loaded
+[Wed Sep 23 15:58:45 2026] fuse: init (API version 7.41)
+[Wed Sep 23 15:58:45 2026] integrity: Platform Keyring initialized
+[Wed Sep 23 15:58:45 2026] integrity: Machine keyring initialized
+[Wed Sep 23 15:58:45 2026] Key type asymmetric registered
+[Wed Sep 23 15:58:45 2026] Asymmetric key parser 'x509' registered
+[Wed Sep 23 15:58:45 2026] Freeing initrd memory: 50252K
+[Wed Sep 23 15:58:45 2026] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+[Wed Sep 23 15:58:45 2026] io scheduler mq-deadline registered
+[Wed Sep 23 15:58:45 2026] ledtrig-cpu: registered to indicate activity on CPUs
+[Wed Sep 23 15:58:45 2026] pcieport 0000:00:1c.0: PME: Signaling with IRQ 122
+[Wed Sep 23 15:58:45 2026] pcieport 0000:00:1c.4: PME: Signaling with IRQ 123
+[Wed Sep 23 15:58:45 2026] pcieport 0000:00:1c.4: pciehp: Slot #8 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[Wed Sep 23 15:58:45 2026] pcieport 0000:00:1d.0: PME: Signaling with IRQ 124
+[Wed Sep 23 15:58:45 2026] pcieport 0000:00:1d.6: PME: Signaling with IRQ 125
+[Wed Sep 23 15:58:45 2026] pcieport 0000:00:1d.6: pciehp: Slot #18 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[Wed Sep 23 15:58:45 2026] pcieport 0000:03:01.0: enabling device (0002 -> 0003)
+[Wed Sep 23 15:58:45 2026] pcieport 0000:03:01.0: pciehp: Slot #1 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[Wed Sep 23 15:58:45 2026] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[Wed Sep 23 15:58:45 2026] ACPI: thermal: [Firmware Bug]: No valid trip points!
+[Wed Sep 23 15:58:45 2026] thermal LNXTHERM:00: registered as thermal_zone0
+[Wed Sep 23 15:58:45 2026] ACPI: thermal: Thermal Zone [TZ0] (-263 C)
+[Wed Sep 23 15:58:45 2026] thermal LNXTHERM:01: registered as thermal_zone1
+[Wed Sep 23 15:58:45 2026] ACPI: thermal: Thermal Zone [TZ00] (28 C)
+[Wed Sep 23 15:58:45 2026] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[Wed Sep 23 15:58:45 2026] hpet_acpi_add: no address or irqs in _CRS
+[Wed Sep 23 15:58:45 2026] Linux agpgart interface v0.103
+[Wed Sep 23 15:58:45 2026] i8042: PNP: No PS/2 controller found.
+[Wed Sep 23 15:58:45 2026] i8042: Probing ports directly.
+[Wed Sep 23 15:58:45 2026] i8042: No controller found
+[Wed Sep 23 15:58:45 2026] mousedev: PS/2 mouse device common for all mice
+[Wed Sep 23 15:58:45 2026] rtc_cmos rtc_cmos: RTC can wake from S4
+[Wed Sep 23 15:58:45 2026] rtc_cmos rtc_cmos: registered as rtc0
+[Wed Sep 23 15:58:45 2026] rtc_cmos rtc_cmos: setting system clock to 2026-09-23T13:58:46 UTC (1790171926)
+[Wed Sep 23 15:58:45 2026] rtc_cmos rtc_cmos: alarms up to one month, y3k, 114 bytes nvram
+[Wed Sep 23 15:58:45 2026] intel_pstate: Intel P-state driver initializing
+[Wed Sep 23 15:58:45 2026] intel_pstate: HWP enabled
+[Wed Sep 23 15:58:45 2026] efifb: probing for efifb
+[Wed Sep 23 15:58:45 2026] efifb: framebuffer at 0x80000000, using 8100k, total 8100k
+[Wed Sep 23 15:58:45 2026] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+[Wed Sep 23 15:58:45 2026] efifb: scrolling: redraw
+[Wed Sep 23 15:58:45 2026] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[Wed Sep 23 15:58:45 2026] Console: switching to colour frame buffer device 240x67
+[Wed Sep 23 15:58:45 2026] fb0: EFI VGA frame buffer device
+[Wed Sep 23 15:58:45 2026] NET: Registered PF_INET6 protocol family
+[Wed Sep 23 15:58:45 2026] Segment Routing with IPv6
+[Wed Sep 23 15:58:45 2026] In-situ OAM (IOAM) with IPv6
+[Wed Sep 23 15:58:45 2026] mip6: Mobile IPv6
+[Wed Sep 23 15:58:45 2026] NET: Registered PF_PACKET protocol family
+[Wed Sep 23 15:58:45 2026] mpls_gso: MPLS GSO support
+[Wed Sep 23 15:58:45 2026] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+[Wed Sep 23 15:58:45 2026] microcode: Current revision: 0x000000f6
+[Wed Sep 23 15:58:45 2026] microcode: Updated early from: 0x000000e0
+[Wed Sep 23 15:58:45 2026] IPI shorthand broadcast: enabled
+[Wed Sep 23 15:58:45 2026] sched_clock: Marking stable (1336348148, 9118505)->(1395530232, -50063579)
+[Wed Sep 23 15:58:45 2026] registered taskstats version 1
+[Wed Sep 23 15:58:45 2026] Loading compiled-in X.509 certificates
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:04: Allocating resources
+[Wed Sep 23 15:58:45 2026] pci_bus 0000:3a: Allocating resources
+[Wed Sep 23 15:58:45 2026] Loaded X.509 cert 'Build time autogenerated kernel key: 092fa7c73d21b4c79e449372fdf50a49a6f4ec79'
+[Wed Sep 23 15:58:45 2026] Demotion targets for Node 0: null
+[Wed Sep 23 15:58:45 2026] Key type .fscrypt registered
+[Wed Sep 23 15:58:45 2026] Key type fscrypt-provisioning registered
+[Wed Sep 23 15:58:45 2026] Key type encrypted registered
+[Wed Sep 23 15:58:45 2026] AppArmor: AppArmor sha256 policy hashing enabled
+[Wed Sep 23 15:58:45 2026] integrity: Loading X.509 certificate: UEFI:db
+[Wed Sep 23 15:58:45 2026] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[Wed Sep 23 15:58:45 2026] integrity: Loading X.509 certificate: UEFI:db
+[Wed Sep 23 15:58:46 2026] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[Wed Sep 23 15:58:46 2026] integrity: Loading X.509 certificate: UEFI:db
+[Wed Sep 23 15:58:46 2026] integrity: Loaded X.509 cert 'CISD FW Update - Certificate: 068268b4a41c93854262d49b4f788f13'
+[Wed Sep 23 15:58:46 2026] integrity: Loading X.509 certificate: UEFI:MokListRT (MOKvar table)
+[Wed Sep 23 15:58:46 2026] integrity: Loaded X.509 cert 'Debian Secure Boot CA: 6ccece7e4c6c0d1f6149f3dd27dfcc5cbb419ea1'
+[Wed Sep 23 15:58:46 2026] integrity: Loading X.509 certificate: UEFI:MokListRT (MOKvar table)
+[Wed Sep 23 15:58:46 2026] integrity: Loaded X.509 cert 'ubuntu Secure Boot Module Signature key: f1ceb3d07f76c4593ac25aa9394b49537438b367'
+[Wed Sep 23 15:58:46 2026] ima: Allocated hash algorithm: sha256
+[Wed Sep 23 15:58:46 2026] evm: Initialising EVM extended attributes:
+[Wed Sep 23 15:58:46 2026] evm: security.selinux
+[Wed Sep 23 15:58:46 2026] evm: security.SMACK64 (disabled)
+[Wed Sep 23 15:58:46 2026] evm: security.SMACK64EXEC (disabled)
+[Wed Sep 23 15:58:46 2026] evm: security.SMACK64TRANSMUTE (disabled)
+[Wed Sep 23 15:58:46 2026] evm: security.SMACK64MMAP (disabled)
+[Wed Sep 23 15:58:46 2026] evm: security.apparmor
+[Wed Sep 23 15:58:46 2026] evm: security.ima
+[Wed Sep 23 15:58:46 2026] audit: type=1807 audit(1790171926.591:2): action=measure func=KEXEC_KERNEL_CHECK res=1
+[Wed Sep 23 15:58:46 2026] evm: security.capability
+[Wed Sep 23 15:58:46 2026] evm: HMAC attrs: 0x1
+[Wed Sep 23 15:58:46 2026] audit: type=1807 audit(1790171926.591:3): action=measure func=MODULE_CHECK res=1
+[Wed Sep 23 15:58:46 2026] RAS: Correctable Errors collector initialized.
+[Wed Sep 23 15:58:46 2026] Lockdown: swapper/0: hibernation is restricted; see man kernel_lockdown.7
+[Wed Sep 23 15:58:46 2026] clk: Disabling unused clocks
+[Wed Sep 23 15:58:46 2026] PM: genpd: Disabling unused power domains
+[Wed Sep 23 15:58:46 2026] Freeing unused decrypted memory: 2028K
+[Wed Sep 23 15:58:46 2026] Freeing unused kernel image (initmem) memory: 4172K
+[Wed Sep 23 15:58:46 2026] Write protecting the kernel read-only data: 28672k
+[Wed Sep 23 15:58:46 2026] Freeing unused kernel image (rodata/data gap) memory: 460K
+[Wed Sep 23 15:58:46 2026] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[Wed Sep 23 15:58:46 2026] x86/mm: Checking user space page tables
+[Wed Sep 23 15:58:46 2026] tsc: Refined TSC clocksource calibration: 2303.999 MHz
+[Wed Sep 23 15:58:46 2026] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2135f6faae8, max_idle_ns: 440795313647 ns
+[Wed Sep 23 15:58:46 2026] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[Wed Sep 23 15:58:46 2026] clocksource: Switched to clocksource tsc
+[Wed Sep 23 15:58:46 2026] Run /init as init process
+[Wed Sep 23 15:58:46 2026]   with arguments:
+[Wed Sep 23 15:58:46 2026]     /init
+[Wed Sep 23 15:58:46 2026]   with environment:
+[Wed Sep 23 15:58:46 2026]     HOME=/
+[Wed Sep 23 15:58:46 2026]     TERM=linux
+[Wed Sep 23 15:58:46 2026] e1000e: Intel(R) PRO/1000 Network Driver
+[Wed Sep 23 15:58:46 2026] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+[Wed Sep 23 15:58:46 2026] i801_smbus 0000:00:1f.4: SPD Write Disable is set
+[Wed Sep 23 15:58:46 2026] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+[Wed Sep 23 15:58:46 2026] e1000e 0000:00:1f.6: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+[Wed Sep 23 15:58:46 2026] i2c i2c-0: Successfully instantiated SPD at 0x50
+[Wed Sep 23 15:58:46 2026] SCSI subsystem initialized
+[Wed Sep 23 15:58:46 2026] iTCO_vendor_support: vendor-support=0
+[Wed Sep 23 15:58:46 2026] ACPI: bus type USB registered
+[Wed Sep 23 15:58:46 2026] usbcore: registered new interface driver usbfs
+[Wed Sep 23 15:58:46 2026] usbcore: registered new interface driver hub
+[Wed Sep 23 15:58:46 2026] usbcore: registered new device driver usb
+[Wed Sep 23 15:58:46 2026] nvme nvme0: pci function 0000:3b:00.0
+[Wed Sep 23 15:58:46 2026] libata version 3.00 loaded.
+[Wed Sep 23 15:58:46 2026] nvme nvme0: allocated 32 MiB host memory buffer.
+[Wed Sep 23 15:58:46 2026] nvme nvme0: 8/0/0 default/read/poll queues
+[Wed Sep 23 15:58:46 2026]  nvme0n1: p1 p2 p3
+[Wed Sep 23 15:58:46 2026] iTCO_wdt iTCO_wdt: Found a Intel PCH TCO device (Version=6, TCOBASE=0x0400)
+[Wed Sep 23 15:58:46 2026] iTCO_wdt iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000000009810
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:00:14.0: Host supports USB 3.1 Enhanced SuperSpeed
+[Wed Sep 23 15:58:46 2026] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.12
+[Wed Sep 23 15:58:46 2026] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 15:58:46 2026] usb usb1: Product: xHCI Host Controller
+[Wed Sep 23 15:58:46 2026] usb usb1: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 15:58:46 2026] usb usb1: SerialNumber: 0000:00:14.0
+[Wed Sep 23 15:58:46 2026] hub 1-0:1.0: USB hub found
+[Wed Sep 23 15:58:46 2026] hub 1-0:1.0: 12 ports detected
+[Wed Sep 23 15:58:46 2026] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.12
+[Wed Sep 23 15:58:46 2026] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 15:58:46 2026] usb usb2: Product: xHCI Host Controller
+[Wed Sep 23 15:58:46 2026] usb usb2: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 15:58:46 2026] usb usb2: SerialNumber: 0000:00:14.0
+[Wed Sep 23 15:58:46 2026] hub 2-0:1.0: USB hub found
+[Wed Sep 23 15:58:46 2026] hub 2-0:1.0: 6 ports detected
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:3a:00.0: xHCI Host Controller
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:3a:00.0: new USB bus registered, assigned bus number 3
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:3a:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:3a:00.0: xHCI Host Controller
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:3a:00.0: new USB bus registered, assigned bus number 4
+[Wed Sep 23 15:58:46 2026] xhci_hcd 0000:3a:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[Wed Sep 23 15:58:46 2026] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.12
+[Wed Sep 23 15:58:46 2026] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 15:58:46 2026] usb usb3: Product: xHCI Host Controller
+[Wed Sep 23 15:58:46 2026] usb usb3: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 15:58:46 2026] usb usb3: SerialNumber: 0000:3a:00.0
+[Wed Sep 23 15:58:46 2026] hub 3-0:1.0: USB hub found
+[Wed Sep 23 15:58:46 2026] hub 3-0:1.0: 2 ports detected
+[Wed Sep 23 15:58:46 2026] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.12
+[Wed Sep 23 15:58:46 2026] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 15:58:46 2026] usb usb4: Product: xHCI Host Controller
+[Wed Sep 23 15:58:46 2026] usb usb4: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 15:58:46 2026] usb usb4: SerialNumber: 0000:3a:00.0
+[Wed Sep 23 15:58:46 2026] hub 4-0:1.0: USB hub found
+[Wed Sep 23 15:58:46 2026] hub 4-0:1.0: 2 ports detected
+[Wed Sep 23 15:58:46 2026] ahci 0000:00:17.0: version 3.0
+[Wed Sep 23 15:58:46 2026] ahci 0000:00:17.0: AHCI vers 0001.0301, 32 command slots, 6 Gbps, SATA mode
+[Wed Sep 23 15:58:46 2026] ahci 0000:00:17.0: 1/1 ports implemented (port mask 0x4)
+[Wed Sep 23 15:58:46 2026] ahci 0000:00:17.0: flags: 64bit ncq sntf pm clo only pio slum part deso sadm sds apst 
+[Wed Sep 23 15:58:46 2026] scsi host0: ahci
+[Wed Sep 23 15:58:46 2026] scsi host1: ahci
+[Wed Sep 23 15:58:46 2026] scsi host2: ahci
+[Wed Sep 23 15:58:46 2026] ata1: DUMMY
+[Wed Sep 23 15:58:46 2026] ata2: DUMMY
+[Wed Sep 23 15:58:46 2026] ata3: SATA max UDMA/133 abar m2048@0xa8b26000 port 0xa8b26200 irq 156 lpm-pol 3
+[Wed Sep 23 15:58:46 2026] usb 1-4: new low-speed USB device number 2 using xhci_hcd
+[Wed Sep 23 15:58:46 2026] e1000e 0000:00:1f.6 0000:00:1f.6 (uninitialized): registered PHC clock
+[Wed Sep 23 15:58:46 2026] ata3: SATA link down (SStatus 4 SControl 300)
+[Wed Sep 23 15:58:46 2026] e1000e 0000:00:1f.6 eth0: (PCI Express:2.5GT/s:Width x1) 1c:69:7a:65:ca:1b
+[Wed Sep 23 15:58:46 2026] e1000e 0000:00:1f.6 eth0: Intel(R) PRO/1000 Network Connection
+[Wed Sep 23 15:58:46 2026] e1000e 0000:00:1f.6 eth0: MAC: 13, PHY: 12, PBA No: FFFFFF-0FF
+[Wed Sep 23 15:58:46 2026] e1000e 0000:00:1f.6 eno1: renamed from eth0
+[Wed Sep 23 15:58:46 2026] usb 1-4: New USB device found, idVendor=1a2c, idProduct=5035, bcdDevice= 1.10
+[Wed Sep 23 15:58:46 2026] usb 1-4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Wed Sep 23 15:58:46 2026] usb 1-4: Product: USB Keyboard
+[Wed Sep 23 15:58:46 2026] usb 1-4: Manufacturer: SEM
+[Wed Sep 23 15:58:46 2026] Lockdown: resume: hibernation is restricted; see man kernel_lockdown.7
+[Wed Sep 23 15:58:46 2026] hid: raw HID events driver (C) Jiri Kosina
+[Wed Sep 23 15:58:46 2026] usbcore: registered new interface driver usbhid
+[Wed Sep 23 15:58:46 2026] usbhid: USB HID core driver
+[Wed Sep 23 15:58:46 2026] input: SEM USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.0/0003:1A2C:5035.0001/input/input0
+[Wed Sep 23 15:58:46 2026] usb 1-10: new full-speed USB device number 3 using xhci_hcd
+[Wed Sep 23 15:58:47 2026] hid-generic 0003:1A2C:5035.0001: input,hidraw0: USB HID v1.10 Keyboard [SEM USB Keyboard] on usb-0000:00:14.0-4/input0
+[Wed Sep 23 15:58:47 2026] input: SEM USB Keyboard Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.1/0003:1A2C:5035.0002/input/input1
+[Wed Sep 23 15:58:47 2026] usb 1-10: New USB device found, idVendor=8087, idProduct=0aaa, bcdDevice= 0.02
+[Wed Sep 23 15:58:47 2026] usb 1-10: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[Wed Sep 23 15:58:47 2026] input: SEM USB Keyboard System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.1/0003:1A2C:5035.0002/input/input2
+[Wed Sep 23 15:58:47 2026] hid-generic 0003:1A2C:5035.0002: input,hidraw1: USB HID v1.10 Device [SEM USB Keyboard] on usb-0000:00:14.0-4/input1
+[Wed Sep 23 15:58:47 2026] EXT4-fs (nvme0n1p2): orphan cleanup on readonly fs
+[Wed Sep 23 15:58:47 2026] EXT4-fs (nvme0n1p2): mounted filesystem 996d9403-5530-4554-a581-6ff5c907dc00 ro with ordered data mode. Quota mode: none.
+[Wed Sep 23 15:58:47 2026] Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
+[Wed Sep 23 15:58:47 2026] systemd[1]: Inserted module 'autofs4'
+[Wed Sep 23 15:58:47 2026] systemd[1]: systemd 257.13-1~deb13u1 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF -XKBCOMMON -UTMP +SYSVINIT +LIBARCHIVE)
+[Wed Sep 23 15:58:47 2026] systemd[1]: Detected architecture x86-64.
+[Wed Sep 23 15:58:47 2026] systemd[1]: Hostname set to <c2c>.
+[Wed Sep 23 15:58:47 2026] Lockdown: systemd: /dev/mem,kmem,port is restricted; see man kernel_lockdown.7
+[Wed Sep 23 15:58:47 2026] systemd[1]: bpf-restrict-fs: LSM BPF program attached
+[Wed Sep 23 15:58:47 2026] systemd[1]: Queued start job for default target graphical.target.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Created slice user.slice - User and Session Slice.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Started systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Set up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Expecting device dev-disk-by\x2duuid-578D\x2d3972.device - /dev/disk/by-uuid/578D-3972...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Expecting device dev-disk-by\x2duuid-ee4c1190\x2d3b49\x2d480f\x2daedb\x2d01b38fc1e1d8.device - /dev/disk/by-uuid/ee4c1190-3b49-480f-aedb-01b38fc1e1d8...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Reached target paths.target - Path Units.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Reached target remote-fs.target - Remote File Systems.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Reached target slices.target - Slice Units.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Listening on systemd-creds.socket - Credential Encryption/Decryption.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+[Wed Sep 23 15:58:48 2026] systemd[1]: Listening on systemd-journald.socket - Journal Sockets.
+[Wed Sep 23 15:58:48 2026] systemd[1]: systemd-pcrextend.socket - TPM PCR Measurements skipped, unmet condition check ConditionSecurity=measured-uki
+[Wed Sep 23 15:58:48 2026] systemd[1]: systemd-pcrlock.socket - Make TPM PCR Policy skipped, unmet condition check ConditionSecurity=measured-uki
+[Wed Sep 23 15:58:48 2026] systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounting run-lock.mount - Legacy Locks Directory /run/lock...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting kmod-static-nodes.service - Create List of Static Device Nodes...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+[Wed Sep 23 15:58:48 2026] systemd[1]: systemd-fsck-root.service - File System Check on Root Device skipped, unmet condition check ConditionPathExists=!/run/initramfs/fsck-root
+[Wed Sep 23 15:58:48 2026] systemd[1]: systemd-hibernate-clear.service - Clear Stale Hibernate Storage Info skipped, unmet condition check ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-8cf2644b-4b0b-428f-9387-6d876050dc67
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-journald.service - Journal Service...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+[Wed Sep 23 15:58:48 2026] systemd[1]: systemd-pcrmachine.service - TPM PCR Machine ID Measurement skipped, unmet condition check ConditionSecurity=measured-uki
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+[Wed Sep 23 15:58:48 2026] systemd[1]: systemd-tpm2-setup-early.service - Early TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-uki
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-udev-load-credentials.service - Load udev Rules from Credentials...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounted run-lock.mount - Legacy Locks Directory /run/lock.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished kmod-static-nodes.service - Create List of Static Device Nodes.
+[Wed Sep 23 15:58:48 2026] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished modprobe@fuse.service - Load Kernel Module fuse.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished systemd-modules-load.service - Load Kernel Modules.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variables...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished systemd-udev-load-credentials.service - Load udev Rules from Credentials.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+[Wed Sep 23 15:58:48 2026] systemd-journald[353]: Collecting audit messages is disabled.
+[Wed Sep 23 15:58:48 2026] pstore: Using crash dump compression: deflate
+[Wed Sep 23 15:58:48 2026] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+[Wed Sep 23 15:58:48 2026] EXT4-fs (nvme0n1p2): re-mounted 996d9403-5530-4554-a581-6ff5c907dc00 r/w.
+[Wed Sep 23 15:58:48 2026] pstore: Registered efi_pstore as persistent store backend
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+[Wed Sep 23 15:58:48 2026] systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+[Wed Sep 23 15:58:48 2026] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database skipped, unmet condition check ConditionNeedsUpdate=/etc
+[Wed Sep 23 15:58:48 2026] systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival skipped, unmet condition check ConditionDirectoryNotEmpty=/sys/fs/pstore
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-random-seed.service - Load/Save OS Random Seed...
+[Wed Sep 23 15:58:48 2026] systemd[1]: systemd-sysusers.service - Create System Users skipped, no trigger condition checks were met.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-timesyncd.service - Network Time Synchronization...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+[Wed Sep 23 15:58:48 2026] systemd[1]: systemd-tpm2-setup.service - TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-uki
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+[Wed Sep 23 15:58:48 2026] systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+[Wed Sep 23 15:58:48 2026] systemd[1]: Started systemd-journald.service - Journal Service.
+[Wed Sep 23 15:58:48 2026] ACPI: bus type drm_connector registered
+[Wed Sep 23 15:58:48 2026] systemd-journald[353]: Received client request to flush runtime journal.
+[Wed Sep 23 15:58:48 2026] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input3
+[Wed Sep 23 15:58:48 2026] ACPI: button: Sleep Button [SLPB]
+[Wed Sep 23 15:58:48 2026] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input4
+[Wed Sep 23 15:58:48 2026] ACPI: button: Power Button [PWRB]
+[Wed Sep 23 15:58:48 2026] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input5
+[Wed Sep 23 15:58:48 2026] ACPI: button: Power Button [PWRF]
+[Wed Sep 23 15:58:48 2026] ee1004 0-0050: 512 byte EE1004-compliant SPD EEPROM, read-only
+[Wed Sep 23 15:58:48 2026] input: PC Speaker as /devices/platform/pcspkr/input/input6
+[Wed Sep 23 15:58:48 2026] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[Wed Sep 23 15:58:48 2026] Adding 25787388k swap on /dev/nvme0n1p3.  Priority:-2 extents:1 across:25787388k SS
+[Wed Sep 23 15:58:48 2026] intel_pmc_core INT33A1:00:  initialized
+[Wed Sep 23 15:58:48 2026] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[Wed Sep 23 15:58:48 2026] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[Wed Sep 23 15:58:48 2026] RAPL PMU: hw unit of domain package 2^-14 Joules
+[Wed Sep 23 15:58:48 2026] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[Wed Sep 23 15:58:48 2026] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[Wed Sep 23 15:58:48 2026] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[Wed Sep 23 15:58:48 2026] cryptd: max_cpu_qlen set to 1000
+[Wed Sep 23 15:58:48 2026] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Wed Sep 23 15:58:48 2026] Loaded X.509 cert 'benh@debian.org: 577e021cb980e0e820821ba7b54b4961b8b4fadf'
+[Wed Sep 23 15:58:48 2026] Loaded X.509 cert 'romain.perier@gmail.com: 3abbc6ec146e09d1b6016ab9d6cf71dd233f0328'
+[Wed Sep 23 15:58:48 2026] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[Wed Sep 23 15:58:48 2026] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+[Wed Sep 23 15:58:48 2026] Bluetooth: Core ver 2.22
+[Wed Sep 23 15:58:48 2026] NET: Registered PF_BLUETOOTH protocol family
+[Wed Sep 23 15:58:48 2026] Bluetooth: HCI device and connection manager initialized
+[Wed Sep 23 15:58:48 2026] Bluetooth: HCI socket layer initialized
+[Wed Sep 23 15:58:48 2026] Bluetooth: L2CAP socket layer initialized
+[Wed Sep 23 15:58:48 2026] Bluetooth: SCO socket layer initialized
+[Wed Sep 23 15:58:48 2026] AES CTR mode by8 optimization enabled
+[Wed Sep 23 15:58:48 2026] Intel(R) Wireless WiFi driver for Linux
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: enabling device (0000 -> 0002)
+[Wed Sep 23 15:58:48 2026] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: Detected crf-id 0x2816, cnv-id 0x1000100 wfpm id 0x80000000
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: PCI dev 9df0/0034, rev=0x312, rfid=0x105110
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: Detected Intel(R) Wireless-AC 9560 160MHz
+[Wed Sep 23 15:58:48 2026] usbcore: registered new interface driver btusb
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 0
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 1
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 2
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 3
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 4
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 6
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 8
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 9
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 10
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 11
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 15
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 16
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 18
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 19
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 20
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 21
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: WRT: Overriding region id 28
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: firmware: failed to load iwl-debug-yoyo.bin (-2)
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: firmware: failed to load iwl-debug-yoyo.bin (-2)
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: firmware: failed to load iwl-debug-yoyo.bin (-2)
+[Wed Sep 23 15:58:48 2026] iwlwifi 0000:00:14.3: loaded firmware version 46.7e3e4b69.0 9000-pu-b0-jf-b0-46.ucode op_mode iwlmvm
+[Wed Sep 23 15:58:48 2026] Bluetooth: hci0: Found device firmware: intel/ibt-17-16-1.sfi
+[Wed Sep 23 15:58:48 2026] Bluetooth: hci0: Boot Address: 0x40800
+[Wed Sep 23 15:58:48 2026] Bluetooth: hci0: Firmware Version: 201-12.24
+[Wed Sep 23 15:58:48 2026] Bluetooth: hci0: Firmware already loaded
+[Wed Sep 23 15:58:48 2026] Bluetooth: hci0: HCI LE Coded PHY feature bit is set, but its usage is not supported.
+[Wed Sep 23 15:58:49 2026] i915 0000:00:02.0: [drm] Found COFFEELAKE/ULT (device ID 3ea5) display version 9.00 stepping N/A
+[Wed Sep 23 15:58:49 2026] i915 0000:00:02.0: [drm] Found 128MB of eDRAM
+[Wed Sep 23 15:58:49 2026] i915 0000:00:02.0: [drm] VT-d active for gfx access
+[Wed Sep 23 15:58:49 2026] Console: switching to colour dummy device 80x25
+[Wed Sep 23 15:58:49 2026] i915 0000:00:02.0: vgaarb: deactivate vga console
+[Wed Sep 23 15:58:49 2026] i915 0000:00:02.0: [drm] Using Transparent Hugepages
+[Wed Sep 23 15:58:49 2026] i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[Wed Sep 23 15:58:49 2026] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/kbl_dmc_ver1_04.bin (v1.4)
+[Wed Sep 23 15:58:49 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Wed Sep 23 15:58:49 2026] iwlwifi 0000:00:14.3: base HW address: 0c:7a:15:fe:9d:1d, OTP minor version: 0x4
+[Wed Sep 23 15:58:49 2026] audit: type=1400 audit(1790171929.898:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=634 comm="apparmor_parser"
+[Wed Sep 23 15:58:49 2026] audit: type=1400 audit(1790171929.898:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=629 comm="apparmor_parser"
+[Wed Sep 23 15:58:49 2026] audit: type=1400 audit(1790171929.898:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=633 comm="apparmor_parser"
+[Wed Sep 23 15:58:49 2026] audit: type=1400 audit(1790171929.898:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=628 comm="apparmor_parser"
+[Wed Sep 23 15:58:49 2026] audit: type=1400 audit(1790171929.898:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=627 comm="apparmor_parser"
+[Wed Sep 23 15:58:49 2026] audit: type=1400 audit(1790171929.898:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=630 comm="apparmor_parser"
+[Wed Sep 23 15:58:49 2026] audit: type=1400 audit(1790171929.898:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=632 comm="apparmor_parser"
+[Wed Sep 23 15:58:49 2026] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+[Wed Sep 23 15:58:49 2026] iwlwifi 0000:00:14.3 wlp0s20f3: renamed from wlan0
+[Wed Sep 23 15:58:49 2026] [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 0
+[Wed Sep 23 15:58:49 2026] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[Wed Sep 23 15:58:49 2026] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input7
+[Wed Sep 23 15:58:49 2026] intel_rapl_common: Found RAPL domain package
+[Wed Sep 23 15:58:49 2026] intel_rapl_common: Found RAPL domain core
+[Wed Sep 23 15:58:49 2026] intel_rapl_common: Found RAPL domain uncore
+[Wed Sep 23 15:58:49 2026] intel_rapl_common: Found RAPL domain dram
+[Wed Sep 23 15:58:49 2026] intel_rapl_common: Found RAPL domain psys
+[Wed Sep 23 15:58:49 2026] i915 0000:00:02.0: [drm] Cannot find any crtc or sizes
+[Wed Sep 23 15:58:49 2026] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[Wed Sep 23 15:58:49 2026] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC233: line_outs=1 (0x21/0x0/0x0/0x0/0x0) type:hp
+[Wed Sep 23 15:58:49 2026] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[Wed Sep 23 15:58:49 2026] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[Wed Sep 23 15:58:49 2026] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[Wed Sep 23 15:58:49 2026] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[Wed Sep 23 15:58:49 2026] snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12
+[Wed Sep 23 15:58:49 2026] snd_hda_codec_realtek hdaudioC0D0:      Mic=0x19
+[Wed Sep 23 15:58:49 2026] i915 0000:00:02.0: [drm] Cannot find any crtc or sizes
+[Wed Sep 23 15:58:49 2026] input: HDA Digital PCBeep as /devices/pci0000:00/0000:00:1f.3/sound/card0/input8
+[Wed Sep 23 15:58:49 2026] input: HDA Intel PCH Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input9
+[Wed Sep 23 15:58:49 2026] input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1f.3/sound/card0/input10
+[Wed Sep 23 15:58:49 2026] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input11
+[Wed Sep 23 15:58:49 2026] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input12
+[Wed Sep 23 15:58:49 2026] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input13
+[Wed Sep 23 15:58:49 2026] warning: `iwconfig' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+[Wed Sep 23 15:58:49 2026] fbcon: i915drmfb (fb0) is primary device
+[Wed Sep 23 15:58:50 2026] iwlwifi 0000:00:14.3: Registered PHC clock: iwlwifi-PTP, with index: 1
+[Wed Sep 23 15:58:50 2026] Console: switching to colour frame buffer device 240x67
+[Wed Sep 23 15:58:50 2026] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[Wed Sep 23 15:58:50 2026] 8021q: 802.1Q VLAN Support v1.8
+[Wed Sep 23 15:58:53 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 15:58:53 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 15:58:53 2026] wlp0s20f3: authenticated
+[Wed Sep 23 15:58:53 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 15:58:53 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 15:58:53 2026] wlp0s20f3: associated
+[Wed Sep 23 15:59:19 2026] systemd-journald[353]: Time jumped backwards, rotating.
+[Wed Sep 23 15:59:35 2026] kauditd_printk_skb: 98 callbacks suppressed
+[Wed Sep 23 15:59:35 2026] audit: type=1400 audit(1790171975.584:109): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=1236 comm="Xorg" capability=12  capname="net_admin"
+[Wed Sep 23 15:59:35 2026] Lockdown: Xorg: raw io port access is restricted; see man kernel_lockdown.7
+[Wed Sep 23 15:59:35 2026] audit: type=1400 audit(1790171975.600:110): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=1236 comm="Xorg" capability=26  capname="sys_tty_config"
+[Wed Sep 23 15:59:36 2026] audit: type=1400 audit(1790171976.188:111): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=1249 comm="sh" capability=2  capname="dac_read_search"
+[Wed Sep 23 15:59:43 2026] audit: type=1400 audit(1790171983.648:112): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=1236 comm="Xorg" capability=26  capname="sys_tty_config"
+[Wed Sep 23 16:00:24 2026] pcieport 0000:02:00.0: Unable to change power state from D3hot to D0, device inaccessible
+[Wed Sep 23 16:00:24 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Link Down
+[Wed Sep 23 16:00:24 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Card not present
+[Wed Sep 23 16:00:24 2026] xhci_hcd 0000:3a:00.0: Controller not ready at resume -19
+[Wed Sep 23 16:00:24 2026] xhci_hcd 0000:3a:00.0: PCI post-resume error -19!
+[Wed Sep 23 16:00:24 2026] xhci_hcd 0000:3a:00.0: HC died; cleaning up
+[Wed Sep 23 16:00:24 2026] xhci_hcd 0000:3a:00.0: remove, state 4
+[Wed Sep 23 16:00:24 2026] usb usb4: USB disconnect, device number 1
+[Wed Sep 23 16:00:24 2026] xhci_hcd 0000:3a:00.0: USB bus 4 deregistered
+[Wed Sep 23 16:00:24 2026] xhci_hcd 0000:3a:00.0: remove, state 4
+[Wed Sep 23 16:00:24 2026] usb usb3: USB disconnect, device number 1
+[Wed Sep 23 16:00:24 2026] xhci_hcd 0000:3a:00.0: Host halt failed, -19
+[Wed Sep 23 16:00:24 2026] xhci_hcd 0000:3a:00.0: Host not accessible, reset failed.
+[Wed Sep 23 16:00:24 2026] xhci_hcd 0000:3a:00.0: USB bus 3 deregistered
+[Wed Sep 23 16:00:24 2026] pci_bus 0000:04: busn_res: [bus 04] is released
+[Wed Sep 23 16:00:24 2026] pci_bus 0000:05: busn_res: [bus 05-39] is released
+[Wed Sep 23 16:00:25 2026] pci_bus 0000:3a: busn_res: [bus 3a] is released
+[Wed Sep 23 16:00:25 2026] pci_bus 0000:03: busn_res: [bus 03-3a] is released
+[Wed Sep 23 16:00:40 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Card present
+[Wed Sep 23 16:00:40 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Link Up
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: [8086:15da] type 01 class 0x060400 PCIe Switch Upstream Port
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: enabling Extended Tags
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: supports D1 D2
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: Adding to iommu group 13
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: enabling Extended Tags
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: supports D1 D2
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: Adding to iommu group 14
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: enabling Extended Tags
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: supports D1 D2
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: Adding to iommu group 15
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: enabling Extended Tags
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: supports D1 D2
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: Adding to iommu group 16
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: PCI bridge to [bus 04-3a]
+[Wed Sep 23 16:00:41 2026] pci_bus 0000:04: busn_res: [bus 04-3a] end is updated to 04
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: PCI bridge to [bus 05-3a]
+[Wed Sep 23 16:00:41 2026] pci_bus 0000:05: busn_res: [bus 05-3a] end is updated to 39
+[Wed Sep 23 16:00:41 2026] pci 0000:3a:00.0: [8086:15db] type 00 class 0x0c0330 PCIe Endpoint
+[Wed Sep 23 16:00:41 2026] pci 0000:3a:00.0: BAR 0 [mem 0x00000000-0x0000ffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:3a:00.0: supports D1 D2
+[Wed Sep 23 16:00:41 2026] pci 0000:3a:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:00:41 2026] pci 0000:3a:00.0: Adding to iommu group 16
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 16:00:41 2026] pci_bus 0000:3a: busn_res: [bus 3a] end is updated to 3a
+[Wed Sep 23 16:00:41 2026] pci_bus 0000:03: busn_res: [bus 03-3a] end is updated to 3a
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: bridge window [mem 0x00100000-0x001fffff 64bit pref] to [bus 05-39] add_size 100000 add_align 100000
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: bridge window [mem 0x00100000-0x001fffff] to [bus 05-39] add_size 100000 add_align 100000
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: bridge window [mem 0x00100000-0x003fffff 64bit pref] to [bus 03-3a] add_size 100000 add_align 100000
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: bridge window [mem 0x00100000-0x003fffff] to [bus 03-3a] add_size 100000 add_align 100000
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: bridge window [mem 0x90000000-0xa60fffff]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: bridge window [io  size 0x3000]: can't assign; no space
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: bridge window [io  size 0x3000]: failed to assign
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: bridge window [mem 0x90000000-0x900fffff]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: bridge window [mem 0x4000000000-0x40000fffff 64bit pref]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: bridge window [mem 0x90100000-0xa5ffffff]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: bridge window [mem 0x4000100000-0x4021efffff 64bit pref]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: bridge window [mem 0xa6000000-0xa60fffff]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: bridge window [mem 0x4021f00000-0x4021ffffff 64bit pref]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: bridge window [io  size 0x1000]: can't assign; no space
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: bridge window [io  size 0x1000]: failed to assign
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: bridge window [io  size 0x1000]: can't assign; no space
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: bridge window [io  size 0x1000]: failed to assign
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: bridge window [io  size 0x1000]: can't assign; no space
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: bridge window [io  size 0x1000]: failed to assign
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: PCI bridge to [bus 04]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0:   bridge window [mem 0x90000000-0x900fffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0:   bridge window [mem 0x4000000000-0x40000fffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: PCI bridge to [bus 05-39]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0:   bridge window [mem 0x90100000-0xa5ffffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0:   bridge window [mem 0x4000100000-0x4021efffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pci 0000:3a:00.0: BAR 0 [mem 0xa6000000-0xa600ffff]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0:   bridge window [mem 0xa6000000-0xa60fffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0:   bridge window [mem 0x4021f00000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4: PCI bridge to [bus 02-3a]
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4:   bridge window [io  0x5000-0x6fff]
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] PCI: No. 2 try to assign unassigned res
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4: resource 13 [io  0x5000-0x6fff] released
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4: PCI bridge to [bus 02-3a]
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4: bridge window [io  0x5000-0x7fff]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: bridge window [io  0x5000-0x7fff]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: bridge window [io  0x5000-0x5fff]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: bridge window [io  0x6000-0x6fff]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: bridge window [io  0x7000-0x7fff]: assigned
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0: PCI bridge to [bus 04]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0:   bridge window [io  0x5000-0x5fff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0:   bridge window [mem 0x90000000-0x900fffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:00.0:   bridge window [mem 0x4000000000-0x40000fffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0: PCI bridge to [bus 05-39]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0:   bridge window [io  0x6000-0x6fff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0:   bridge window [mem 0x90100000-0xa5ffffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:01.0:   bridge window [mem 0x4000100000-0x4021efffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0:   bridge window [io  0x7000-0x7fff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0:   bridge window [mem 0xa6000000-0xa60fffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:03:02.0:   bridge window [mem 0x4021f00000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0:   bridge window [io  0x5000-0x7fff]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 16:00:41 2026] pci 0000:02:00.0:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4: PCI bridge to [bus 02-3a]
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4:   bridge window [io  0x5000-0x7fff]
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 16:00:41 2026] pcieport 0000:00:1c.4:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:00:41 2026] pcieport 0000:02:00.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:00:41 2026] pcieport 0000:03:00.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:00:41 2026] pcieport 0000:03:01.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:00:41 2026] pcieport 0000:03:01.0: pciehp: Slot #1 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[Wed Sep 23 16:00:41 2026] pcieport 0000:03:02.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:00:41 2026] pci 0000:3a:00.0: enabling device (0000 -> 0002)
+[Wed Sep 23 16:00:41 2026] xhci_hcd 0000:3a:00.0: xHCI Host Controller
+[Wed Sep 23 16:00:41 2026] xhci_hcd 0000:3a:00.0: new USB bus registered, assigned bus number 3
+[Wed Sep 23 16:00:41 2026] xhci_hcd 0000:3a:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[Wed Sep 23 16:00:41 2026] xhci_hcd 0000:3a:00.0: xHCI Host Controller
+[Wed Sep 23 16:00:41 2026] xhci_hcd 0000:3a:00.0: new USB bus registered, assigned bus number 4
+[Wed Sep 23 16:00:41 2026] xhci_hcd 0000:3a:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[Wed Sep 23 16:00:41 2026] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.12
+[Wed Sep 23 16:00:41 2026] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 16:00:41 2026] usb usb3: Product: xHCI Host Controller
+[Wed Sep 23 16:00:41 2026] usb usb3: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 16:00:41 2026] usb usb3: SerialNumber: 0000:3a:00.0
+[Wed Sep 23 16:00:41 2026] hub 3-0:1.0: USB hub found
+[Wed Sep 23 16:00:41 2026] hub 3-0:1.0: 2 ports detected
+[Wed Sep 23 16:00:41 2026] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.12
+[Wed Sep 23 16:00:41 2026] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 16:00:41 2026] usb usb4: Product: xHCI Host Controller
+[Wed Sep 23 16:00:41 2026] usb usb4: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 16:00:41 2026] usb usb4: SerialNumber: 0000:3a:00.0
+[Wed Sep 23 16:00:41 2026] hub 4-0:1.0: USB hub found
+[Wed Sep 23 16:00:41 2026] hub 4-0:1.0: 2 ports detected
+[Wed Sep 23 16:00:41 2026] pci_bus 0000:04: Allocating resources
+[Wed Sep 23 16:00:41 2026] pci_bus 0000:3a: Allocating resources
+[Wed Sep 23 16:00:42 2026] pci_bus 0000:04: Allocating resources
+[Wed Sep 23 16:00:42 2026] pci_bus 0000:3a: Allocating resources
+[Wed Sep 23 16:00:47 2026] usb 3-1: new high-speed USB device number 2 using xhci_hcd
+[Wed Sep 23 16:00:47 2026] usb 3-1: New USB device found, idVendor=2109, idProduct=0100, bcdDevice= 2.00
+[Wed Sep 23 16:00:47 2026] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[Wed Sep 23 16:00:47 2026] usb 3-1: Product: USB 2.0 BILLBOARD             
+[Wed Sep 23 16:00:47 2026] usb 3-1: Manufacturer: VIA Technologies Inc.         
+[Wed Sep 23 16:00:47 2026] usb 3-1: SerialNumber: 0000000000000001
+[Wed Sep 23 16:01:21 2026] audit: type=1400 audit(1790172081.776:113): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=1461 comm="Xorg" capability=12  capname="net_admin"
+[Wed Sep 23 16:01:21 2026] Lockdown: Xorg: raw io port access is restricted; see man kernel_lockdown.7
+[Wed Sep 23 16:01:21 2026] audit: type=1400 audit(1790172081.796:114): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=1461 comm="Xorg" capability=26  capname="sys_tty_config"
+[Wed Sep 23 16:01:24 2026] audit: type=1400 audit(1790172084.252:115): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=1461 comm="Xorg" capability=12  capname="net_admin"
+[Wed Sep 23 16:01:24 2026] audit: type=1400 audit(1790172084.264:116): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=1473 comm="sh" capability=2  capname="dac_read_search"
+[Wed Sep 23 16:05:18 2026] usb 3-1: USB disconnect, device number 2
+[Wed Sep 23 16:05:18 2026] usb 3-1: new high-speed USB device number 3 using xhci_hcd
+[Wed Sep 23 16:05:19 2026] usb 3-1: New USB device found, idVendor=2109, idProduct=0100, bcdDevice= 2.00
+[Wed Sep 23 16:05:19 2026] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[Wed Sep 23 16:05:19 2026] usb 3-1: Product: USB 2.0 BILLBOARD             
+[Wed Sep 23 16:05:19 2026] usb 3-1: Manufacturer: VIA Technologies Inc.         
+[Wed Sep 23 16:05:19 2026] usb 3-1: SerialNumber: 0000000000000001
+[Wed Sep 23 16:05:35 2026] usb 3-1: USB disconnect, device number 3
+[Wed Sep 23 16:05:35 2026] xhci_hcd 0000:3a:00.0: xHCI host controller not responding, assume dead
+[Wed Sep 23 16:05:35 2026] xhci_hcd 0000:3a:00.0: HC died; cleaning up
+[Wed Sep 23 16:05:35 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Link Down
+[Wed Sep 23 16:05:35 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Card not present
+[Wed Sep 23 16:05:35 2026] xhci_hcd 0000:3a:00.0: remove, state 4
+[Wed Sep 23 16:05:35 2026] usb usb4: USB disconnect, device number 1
+[Wed Sep 23 16:05:35 2026] xhci_hcd 0000:3a:00.0: USB bus 4 deregistered
+[Wed Sep 23 16:05:35 2026] xhci_hcd 0000:3a:00.0: remove, state 1
+[Wed Sep 23 16:05:35 2026] usb usb3: USB disconnect, device number 1
+[Wed Sep 23 16:05:35 2026] xhci_hcd 0000:3a:00.0: USB bus 3 deregistered
+[Wed Sep 23 16:05:35 2026] pci_bus 0000:04: busn_res: [bus 04] is released
+[Wed Sep 23 16:05:35 2026] pci_bus 0000:05: busn_res: [bus 05-39] is released
+[Wed Sep 23 16:05:36 2026] pci_bus 0000:3a: busn_res: [bus 3a] is released
+[Wed Sep 23 16:05:36 2026] pci_bus 0000:03: busn_res: [bus 03-3a] is released
+[Wed Sep 23 16:05:59 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Card present
+[Wed Sep 23 16:05:59 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Link Up
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: [8086:15da] type 01 class 0x060400 PCIe Switch Upstream Port
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: enabling Extended Tags
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: supports D1 D2
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: Adding to iommu group 13
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: enabling Extended Tags
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: supports D1 D2
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: Adding to iommu group 14
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: enabling Extended Tags
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: supports D1 D2
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: Adding to iommu group 15
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: enabling Extended Tags
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: supports D1 D2
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: Adding to iommu group 16
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: PCI bridge to [bus 04-3a]
+[Wed Sep 23 16:06:00 2026] pci_bus 0000:04: busn_res: [bus 04-3a] end is updated to 04
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: PCI bridge to [bus 05-3a]
+[Wed Sep 23 16:06:00 2026] pci_bus 0000:05: busn_res: [bus 05-3a] end is updated to 39
+[Wed Sep 23 16:06:00 2026] pci 0000:3a:00.0: [8086:15db] type 00 class 0x0c0330 PCIe Endpoint
+[Wed Sep 23 16:06:00 2026] pci 0000:3a:00.0: BAR 0 [mem 0x00000000-0x0000ffff]
+[Wed Sep 23 16:06:00 2026] pci 0000:3a:00.0: supports D1 D2
+[Wed Sep 23 16:06:00 2026] pci 0000:3a:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:06:00 2026] pci 0000:3a:00.0: Adding to iommu group 16
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 16:06:00 2026] pci_bus 0000:3a: busn_res: [bus 3a] end is updated to 3a
+[Wed Sep 23 16:06:00 2026] pci_bus 0000:03: busn_res: [bus 03-3a] end is updated to 3a
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: bridge window [mem 0x00100000-0x001fffff 64bit pref] to [bus 05-39] add_size 100000 add_align 100000
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: bridge window [mem 0x00100000-0x001fffff] to [bus 05-39] add_size 100000 add_align 100000
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: bridge window [mem 0x00100000-0x003fffff 64bit pref] to [bus 03-3a] add_size 100000 add_align 100000
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: bridge window [mem 0x00100000-0x003fffff] to [bus 03-3a] add_size 100000 add_align 100000
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: bridge window [mem 0x90000000-0xa60fffff]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: bridge window [io  0x5000-0x7fff]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: bridge window [mem 0x90000000-0x900fffff]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: bridge window [mem 0x4000000000-0x40000fffff 64bit pref]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: bridge window [mem 0x90100000-0xa5ffffff]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: bridge window [mem 0x4000100000-0x4021efffff 64bit pref]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: bridge window [mem 0xa6000000-0xa60fffff]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: bridge window [mem 0x4021f00000-0x4021ffffff 64bit pref]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: bridge window [io  0x5000-0x5fff]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: bridge window [io  0x6000-0x6fff]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: bridge window [io  0x7000-0x7fff]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0: PCI bridge to [bus 04]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0:   bridge window [io  0x5000-0x5fff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0:   bridge window [mem 0x90000000-0x900fffff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:00.0:   bridge window [mem 0x4000000000-0x40000fffff 64bit pref]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0: PCI bridge to [bus 05-39]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0:   bridge window [io  0x6000-0x6fff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0:   bridge window [mem 0x90100000-0xa5ffffff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:01.0:   bridge window [mem 0x4000100000-0x4021efffff 64bit pref]
+[Wed Sep 23 16:06:00 2026] pci 0000:3a:00.0: BAR 0 [mem 0xa6000000-0xa600ffff]: assigned
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0:   bridge window [io  0x7000-0x7fff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0:   bridge window [mem 0xa6000000-0xa60fffff]
+[Wed Sep 23 16:06:00 2026] pci 0000:03:02.0:   bridge window [mem 0x4021f00000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0:   bridge window [io  0x5000-0x7fff]
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 16:06:00 2026] pci 0000:02:00.0:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:06:00 2026] pcieport 0000:00:1c.4: PCI bridge to [bus 02-3a]
+[Wed Sep 23 16:06:00 2026] pcieport 0000:00:1c.4:   bridge window [io  0x5000-0x7fff]
+[Wed Sep 23 16:06:00 2026] pcieport 0000:00:1c.4:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 16:06:00 2026] pcieport 0000:00:1c.4:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:06:00 2026] pcieport 0000:02:00.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:06:00 2026] pcieport 0000:03:00.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:06:00 2026] pcieport 0000:03:01.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:06:00 2026] pcieport 0000:03:01.0: pciehp: Slot #1 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[Wed Sep 23 16:06:00 2026] pcieport 0000:03:02.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:06:00 2026] pci 0000:3a:00.0: enabling device (0000 -> 0002)
+[Wed Sep 23 16:06:00 2026] xhci_hcd 0000:3a:00.0: xHCI Host Controller
+[Wed Sep 23 16:06:00 2026] xhci_hcd 0000:3a:00.0: new USB bus registered, assigned bus number 3
+[Wed Sep 23 16:06:00 2026] xhci_hcd 0000:3a:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[Wed Sep 23 16:06:00 2026] xhci_hcd 0000:3a:00.0: xHCI Host Controller
+[Wed Sep 23 16:06:00 2026] xhci_hcd 0000:3a:00.0: new USB bus registered, assigned bus number 4
+[Wed Sep 23 16:06:00 2026] xhci_hcd 0000:3a:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[Wed Sep 23 16:06:00 2026] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.12
+[Wed Sep 23 16:06:00 2026] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 16:06:00 2026] usb usb3: Product: xHCI Host Controller
+[Wed Sep 23 16:06:00 2026] usb usb3: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 16:06:00 2026] usb usb3: SerialNumber: 0000:3a:00.0
+[Wed Sep 23 16:06:00 2026] hub 3-0:1.0: USB hub found
+[Wed Sep 23 16:06:00 2026] hub 3-0:1.0: 2 ports detected
+[Wed Sep 23 16:06:00 2026] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.12
+[Wed Sep 23 16:06:00 2026] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 16:06:00 2026] usb usb4: Product: xHCI Host Controller
+[Wed Sep 23 16:06:00 2026] usb usb4: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 16:06:00 2026] usb usb4: SerialNumber: 0000:3a:00.0
+[Wed Sep 23 16:06:00 2026] hub 4-0:1.0: USB hub found
+[Wed Sep 23 16:06:00 2026] hub 4-0:1.0: 2 ports detected
+[Wed Sep 23 16:06:00 2026] pci_bus 0000:04: Allocating resources
+[Wed Sep 23 16:06:00 2026] pci_bus 0000:3a: Allocating resources
+[Wed Sep 23 16:07:32 2026] i915 0000:00:02.0: [drm] *ERROR* Step 2 of creating MST payload for 000000008528259c failed: -5
+[Wed Sep 23 16:08:43 2026] audit: type=1400 audit(1790172523.663:117): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=2220 comm="Xorg" capability=12  capname="net_admin"
+[Wed Sep 23 16:08:43 2026] audit: type=1400 audit(1790172523.679:118): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=2220 comm="Xorg" capability=26  capname="sys_tty_config"
+[Wed Sep 23 16:08:43 2026] Lockdown: Xorg: raw io port access is restricted; see man kernel_lockdown.7
+[Wed Sep 23 16:09:06 2026] i915 0000:00:02.0: [drm] *ERROR* Failed to get ACT after 3000ms, last status: 04
+[Wed Sep 23 16:09:09 2026] i915 0000:00:02.0: [drm] *ERROR* Failed to get ACT after 3000ms, last status: 04
+[Wed Sep 23 16:09:19 2026] audit: type=1400 audit(1790172559.219:119): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=2220 comm="Xorg" capability=26  capname="sys_tty_config"
+[Wed Sep 23 16:09:33 2026] Lockdown: Xorg: raw io port access is restricted; see man kernel_lockdown.7
+[Wed Sep 23 16:09:33 2026] audit: type=1400 audit(1790172573.140:120): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=2335 comm="Xorg" capability=26  capname="sys_tty_config"
+[Wed Sep 23 16:10:42 2026] audit: type=1400 audit(1790172642.204:121): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=2479 comm="Xorg" capability=12  capname="net_admin"
+[Wed Sep 23 16:10:42 2026] Lockdown: Xorg: raw io port access is restricted; see man kernel_lockdown.7
+[Wed Sep 23 16:10:42 2026] audit: type=1400 audit(1790172642.388:122): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=2486 comm="sh" capability=2  capname="dac_read_search"
+[Wed Sep 23 16:11:40 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:11:40 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:20:46 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Link Down
+[Wed Sep 23 16:20:46 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Card not present
+[Wed Sep 23 16:20:46 2026] xhci_hcd 0000:3a:00.0: Controller not ready at resume -19
+[Wed Sep 23 16:20:46 2026] xhci_hcd 0000:3a:00.0: PCI post-resume error -19!
+[Wed Sep 23 16:20:46 2026] xhci_hcd 0000:3a:00.0: HC died; cleaning up
+[Wed Sep 23 16:20:46 2026] xhci_hcd 0000:3a:00.0: remove, state 4
+[Wed Sep 23 16:20:46 2026] usb usb4: USB disconnect, device number 1
+[Wed Sep 23 16:20:46 2026] xhci_hcd 0000:3a:00.0: USB bus 4 deregistered
+[Wed Sep 23 16:20:46 2026] xhci_hcd 0000:3a:00.0: remove, state 4
+[Wed Sep 23 16:20:46 2026] usb usb3: USB disconnect, device number 1
+[Wed Sep 23 16:20:46 2026] xhci_hcd 0000:3a:00.0: Host halt failed, -19
+[Wed Sep 23 16:20:46 2026] xhci_hcd 0000:3a:00.0: Host not accessible, reset failed.
+[Wed Sep 23 16:20:46 2026] xhci_hcd 0000:3a:00.0: USB bus 3 deregistered
+[Wed Sep 23 16:20:46 2026] pci_bus 0000:04: busn_res: [bus 04] is released
+[Wed Sep 23 16:20:46 2026] pci_bus 0000:05: busn_res: [bus 05-39] is released
+[Wed Sep 23 16:20:46 2026] pci_bus 0000:3a: busn_res: [bus 3a] is released
+[Wed Sep 23 16:20:46 2026] pci_bus 0000:03: busn_res: [bus 03-3a] is released
+[Wed Sep 23 16:20:47 2026] usb 1-4: USB disconnect, device number 2
+[Wed Sep 23 16:20:49 2026] usb 1-3: new low-speed USB device number 4 using xhci_hcd
+[Wed Sep 23 16:20:49 2026] usb 1-3: New USB device found, idVendor=1a2c, idProduct=5035, bcdDevice= 1.10
+[Wed Sep 23 16:20:49 2026] usb 1-3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Wed Sep 23 16:20:49 2026] usb 1-3: Product: USB Keyboard
+[Wed Sep 23 16:20:49 2026] usb 1-3: Manufacturer: SEM
+[Wed Sep 23 16:20:49 2026] input: SEM USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/0003:1A2C:5035.0003/input/input14
+[Wed Sep 23 16:20:49 2026] hid-generic 0003:1A2C:5035.0003: input,hidraw0: USB HID v1.10 Keyboard [SEM USB Keyboard] on usb-0000:00:14.0-3/input0
+[Wed Sep 23 16:20:49 2026] input: SEM USB Keyboard Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.1/0003:1A2C:5035.0004/input/input15
+[Wed Sep 23 16:20:49 2026] input: SEM USB Keyboard System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.1/0003:1A2C:5035.0004/input/input16
+[Wed Sep 23 16:20:49 2026] hid-generic 0003:1A2C:5035.0004: input,hidraw1: USB HID v1.10 Device [SEM USB Keyboard] on usb-0000:00:14.0-3/input1
+[Wed Sep 23 16:22:25 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Card present
+[Wed Sep 23 16:22:25 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Link Up
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: [8086:15da] type 01 class 0x060400 PCIe Switch Upstream Port
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: enabling Extended Tags
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: supports D1 D2
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: Adding to iommu group 13
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: enabling Extended Tags
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: supports D1 D2
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: Adding to iommu group 14
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: enabling Extended Tags
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: supports D1 D2
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: Adding to iommu group 15
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: enabling Extended Tags
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: supports D1 D2
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: Adding to iommu group 16
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: PCI bridge to [bus 04-3a]
+[Wed Sep 23 16:22:25 2026] pci_bus 0000:04: busn_res: [bus 04-3a] end is updated to 04
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: PCI bridge to [bus 05-3a]
+[Wed Sep 23 16:22:25 2026] pci_bus 0000:05: busn_res: [bus 05-3a] end is updated to 39
+[Wed Sep 23 16:22:25 2026] pci 0000:3a:00.0: [8086:15db] type 00 class 0x0c0330 PCIe Endpoint
+[Wed Sep 23 16:22:25 2026] pci 0000:3a:00.0: BAR 0 [mem 0x00000000-0x0000ffff]
+[Wed Sep 23 16:22:25 2026] pci 0000:3a:00.0: supports D1 D2
+[Wed Sep 23 16:22:25 2026] pci 0000:3a:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:22:25 2026] pci 0000:3a:00.0: Adding to iommu group 16
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 16:22:25 2026] pci_bus 0000:3a: busn_res: [bus 3a] end is updated to 3a
+[Wed Sep 23 16:22:25 2026] pci_bus 0000:03: busn_res: [bus 03-3a] end is updated to 3a
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: bridge window [mem 0x00100000-0x001fffff 64bit pref] to [bus 05-39] add_size 100000 add_align 100000
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: bridge window [mem 0x00100000-0x001fffff] to [bus 05-39] add_size 100000 add_align 100000
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: bridge window [mem 0x00100000-0x003fffff 64bit pref] to [bus 03-3a] add_size 100000 add_align 100000
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: bridge window [mem 0x00100000-0x003fffff] to [bus 03-3a] add_size 100000 add_align 100000
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: bridge window [mem 0x90000000-0xa60fffff]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: bridge window [io  0x5000-0x7fff]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: bridge window [mem 0x90000000-0x900fffff]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: bridge window [mem 0x4000000000-0x40000fffff 64bit pref]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: bridge window [mem 0x90100000-0xa5ffffff]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: bridge window [mem 0x4000100000-0x4021efffff 64bit pref]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: bridge window [mem 0xa6000000-0xa60fffff]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: bridge window [mem 0x4021f00000-0x4021ffffff 64bit pref]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: bridge window [io  0x5000-0x5fff]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: bridge window [io  0x6000-0x6fff]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: bridge window [io  0x7000-0x7fff]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0: PCI bridge to [bus 04]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0:   bridge window [io  0x5000-0x5fff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0:   bridge window [mem 0x90000000-0x900fffff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:00.0:   bridge window [mem 0x4000000000-0x40000fffff 64bit pref]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0: PCI bridge to [bus 05-39]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0:   bridge window [io  0x6000-0x6fff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0:   bridge window [mem 0x90100000-0xa5ffffff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:01.0:   bridge window [mem 0x4000100000-0x4021efffff 64bit pref]
+[Wed Sep 23 16:22:25 2026] pci 0000:3a:00.0: BAR 0 [mem 0xa6000000-0xa600ffff]: assigned
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0:   bridge window [io  0x7000-0x7fff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0:   bridge window [mem 0xa6000000-0xa60fffff]
+[Wed Sep 23 16:22:25 2026] pci 0000:03:02.0:   bridge window [mem 0x4021f00000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0:   bridge window [io  0x5000-0x7fff]
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 16:22:25 2026] pci 0000:02:00.0:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:22:25 2026] pcieport 0000:00:1c.4: PCI bridge to [bus 02-3a]
+[Wed Sep 23 16:22:25 2026] pcieport 0000:00:1c.4:   bridge window [io  0x5000-0x7fff]
+[Wed Sep 23 16:22:25 2026] pcieport 0000:00:1c.4:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 16:22:25 2026] pcieport 0000:00:1c.4:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:22:25 2026] pcieport 0000:02:00.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:22:25 2026] pcieport 0000:03:00.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:22:25 2026] pcieport 0000:03:01.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:22:25 2026] pcieport 0000:03:01.0: pciehp: Slot #1 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[Wed Sep 23 16:22:25 2026] pcieport 0000:03:02.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:22:25 2026] pci 0000:3a:00.0: enabling device (0000 -> 0002)
+[Wed Sep 23 16:22:25 2026] xhci_hcd 0000:3a:00.0: xHCI Host Controller
+[Wed Sep 23 16:22:25 2026] xhci_hcd 0000:3a:00.0: new USB bus registered, assigned bus number 3
+[Wed Sep 23 16:22:25 2026] xhci_hcd 0000:3a:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[Wed Sep 23 16:22:25 2026] xhci_hcd 0000:3a:00.0: xHCI Host Controller
+[Wed Sep 23 16:22:25 2026] xhci_hcd 0000:3a:00.0: new USB bus registered, assigned bus number 4
+[Wed Sep 23 16:22:25 2026] xhci_hcd 0000:3a:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[Wed Sep 23 16:22:25 2026] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.12
+[Wed Sep 23 16:22:25 2026] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 16:22:25 2026] usb usb3: Product: xHCI Host Controller
+[Wed Sep 23 16:22:25 2026] usb usb3: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 16:22:25 2026] usb usb3: SerialNumber: 0000:3a:00.0
+[Wed Sep 23 16:22:25 2026] hub 3-0:1.0: USB hub found
+[Wed Sep 23 16:22:25 2026] hub 3-0:1.0: 2 ports detected
+[Wed Sep 23 16:22:25 2026] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.12
+[Wed Sep 23 16:22:25 2026] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 16:22:25 2026] usb usb4: Product: xHCI Host Controller
+[Wed Sep 23 16:22:25 2026] usb usb4: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 16:22:25 2026] usb usb4: SerialNumber: 0000:3a:00.0
+[Wed Sep 23 16:22:25 2026] hub 4-0:1.0: USB hub found
+[Wed Sep 23 16:22:25 2026] hub 4-0:1.0: 2 ports detected
+[Wed Sep 23 16:22:26 2026] pci_bus 0000:04: Allocating resources
+[Wed Sep 23 16:22:26 2026] pci_bus 0000:3a: Allocating resources
+[Wed Sep 23 16:23:29 2026] audit: type=1400 audit(1790173409.149:123): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=3745 comm="Xorg" capability=12  capname="net_admin"
+[Wed Sep 23 16:23:29 2026] Lockdown: Xorg: raw io port access is restricted; see man kernel_lockdown.7
+[Wed Sep 23 16:23:29 2026] audit: type=1400 audit(1790173409.169:124): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=3745 comm="Xorg" capability=26  capname="sys_tty_config"
+[Wed Sep 23 16:23:29 2026] audit: type=1400 audit(1790173409.737:125): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=3752 comm="sh" capability=2  capname="dac_read_search"
+[Wed Sep 23 16:29:03 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:29:03 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:29:03 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:29:03 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:29:03 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:29:03 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:29:03 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:29:06 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:29:06 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:29:06 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:29:06 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:29:06 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:29:06 2026] wlp0s20f3: associated
+[Wed Sep 23 16:30:17 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Link Down
+[Wed Sep 23 16:30:17 2026] pcieport 0000:02:00.0: Unable to change power state from D3hot to D0, device inaccessible
+[Wed Sep 23 16:30:17 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Card not present
+[Wed Sep 23 16:30:17 2026] xhci_hcd 0000:3a:00.0: Controller not ready at resume -19
+[Wed Sep 23 16:30:17 2026] xhci_hcd 0000:3a:00.0: PCI post-resume error -19!
+[Wed Sep 23 16:30:17 2026] xhci_hcd 0000:3a:00.0: HC died; cleaning up
+[Wed Sep 23 16:30:17 2026] xhci_hcd 0000:3a:00.0: remove, state 4
+[Wed Sep 23 16:30:17 2026] usb usb4: USB disconnect, device number 1
+[Wed Sep 23 16:30:17 2026] xhci_hcd 0000:3a:00.0: USB bus 4 deregistered
+[Wed Sep 23 16:30:17 2026] xhci_hcd 0000:3a:00.0: remove, state 4
+[Wed Sep 23 16:30:17 2026] usb usb3: USB disconnect, device number 1
+[Wed Sep 23 16:30:17 2026] xhci_hcd 0000:3a:00.0: Host halt failed, -19
+[Wed Sep 23 16:30:17 2026] xhci_hcd 0000:3a:00.0: Host not accessible, reset failed.
+[Wed Sep 23 16:30:17 2026] xhci_hcd 0000:3a:00.0: USB bus 3 deregistered
+[Wed Sep 23 16:30:17 2026] pci_bus 0000:04: busn_res: [bus 04] is released
+[Wed Sep 23 16:30:17 2026] pci_bus 0000:05: busn_res: [bus 05-39] is released
+[Wed Sep 23 16:30:18 2026] pci_bus 0000:3a: busn_res: [bus 3a] is released
+[Wed Sep 23 16:30:18 2026] pci_bus 0000:03: busn_res: [bus 03-3a] is released
+[Wed Sep 23 16:30:28 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Card present
+[Wed Sep 23 16:30:28 2026] pcieport 0000:00:1c.4: pciehp: Slot(8): Link Up
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: [8086:15da] type 01 class 0x060400 PCIe Switch Upstream Port
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: enabling Extended Tags
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: supports D1 D2
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: Adding to iommu group 13
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: enabling Extended Tags
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: supports D1 D2
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: Adding to iommu group 14
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: enabling Extended Tags
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: supports D1 D2
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: Adding to iommu group 15
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: [8086:15da] type 01 class 0x060400 PCIe Switch Downstream Port
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: PCI bridge to [bus 00]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0:   bridge window [io  0x0000-0x0fff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0:   bridge window [mem 0x00000000-0x000fffff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: enabling Extended Tags
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: supports D1 D2
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: Adding to iommu group 16
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: PCI bridge to [bus 04-3a]
+[Wed Sep 23 16:30:28 2026] pci_bus 0000:04: busn_res: [bus 04-3a] end is updated to 04
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: PCI bridge to [bus 05-3a]
+[Wed Sep 23 16:30:28 2026] pci_bus 0000:05: busn_res: [bus 05-3a] end is updated to 39
+[Wed Sep 23 16:30:28 2026] pci 0000:3a:00.0: [8086:15db] type 00 class 0x0c0330 PCIe Endpoint
+[Wed Sep 23 16:30:28 2026] pci 0000:3a:00.0: BAR 0 [mem 0x00000000-0x0000ffff]
+[Wed Sep 23 16:30:28 2026] pci 0000:3a:00.0: supports D1 D2
+[Wed Sep 23 16:30:28 2026] pci 0000:3a:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[Wed Sep 23 16:30:28 2026] pci 0000:3a:00.0: Adding to iommu group 16
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 16:30:28 2026] pci_bus 0000:3a: busn_res: [bus 3a] end is updated to 3a
+[Wed Sep 23 16:30:28 2026] pci_bus 0000:03: busn_res: [bus 03-3a] end is updated to 3a
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: bridge window [mem 0x00100000-0x001fffff 64bit pref] to [bus 05-39] add_size 100000 add_align 100000
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: bridge window [mem 0x00100000-0x001fffff] to [bus 05-39] add_size 100000 add_align 100000
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: bridge window [mem 0x00100000-0x003fffff 64bit pref] to [bus 03-3a] add_size 100000 add_align 100000
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: bridge window [mem 0x00100000-0x003fffff] to [bus 03-3a] add_size 100000 add_align 100000
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: bridge window [mem 0x90000000-0xa60fffff]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: bridge window [io  0x5000-0x7fff]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: bridge window [mem 0x90000000-0x900fffff]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: bridge window [mem 0x4000000000-0x40000fffff 64bit pref]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: bridge window [mem 0x90100000-0xa5ffffff]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: bridge window [mem 0x4000100000-0x4021efffff 64bit pref]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: bridge window [mem 0xa6000000-0xa60fffff]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: bridge window [mem 0x4021f00000-0x4021ffffff 64bit pref]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: bridge window [io  0x5000-0x5fff]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: bridge window [io  0x6000-0x6fff]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: bridge window [io  0x7000-0x7fff]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0: PCI bridge to [bus 04]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0:   bridge window [io  0x5000-0x5fff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0:   bridge window [mem 0x90000000-0x900fffff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:00.0:   bridge window [mem 0x4000000000-0x40000fffff 64bit pref]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0: PCI bridge to [bus 05-39]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0:   bridge window [io  0x6000-0x6fff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0:   bridge window [mem 0x90100000-0xa5ffffff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:01.0:   bridge window [mem 0x4000100000-0x4021efffff 64bit pref]
+[Wed Sep 23 16:30:28 2026] pci 0000:3a:00.0: BAR 0 [mem 0xa6000000-0xa600ffff]: assigned
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0: PCI bridge to [bus 3a]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0:   bridge window [io  0x7000-0x7fff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0:   bridge window [mem 0xa6000000-0xa60fffff]
+[Wed Sep 23 16:30:28 2026] pci 0000:03:02.0:   bridge window [mem 0x4021f00000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0: PCI bridge to [bus 03-3a]
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0:   bridge window [io  0x5000-0x7fff]
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 16:30:28 2026] pci 0000:02:00.0:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:30:28 2026] pcieport 0000:00:1c.4: PCI bridge to [bus 02-3a]
+[Wed Sep 23 16:30:28 2026] pcieport 0000:00:1c.4:   bridge window [io  0x5000-0x7fff]
+[Wed Sep 23 16:30:28 2026] pcieport 0000:00:1c.4:   bridge window [mem 0x90000000-0xa60fffff]
+[Wed Sep 23 16:30:28 2026] pcieport 0000:00:1c.4:   bridge window [mem 0x4000000000-0x4021ffffff 64bit pref]
+[Wed Sep 23 16:30:28 2026] pcieport 0000:02:00.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:30:28 2026] pcieport 0000:03:00.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:30:28 2026] pcieport 0000:03:01.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:30:28 2026] pcieport 0000:03:01.0: pciehp: Slot #1 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[Wed Sep 23 16:30:28 2026] pcieport 0000:03:02.0: enabling device (0000 -> 0003)
+[Wed Sep 23 16:30:28 2026] pci 0000:3a:00.0: enabling device (0000 -> 0002)
+[Wed Sep 23 16:30:28 2026] xhci_hcd 0000:3a:00.0: xHCI Host Controller
+[Wed Sep 23 16:30:28 2026] xhci_hcd 0000:3a:00.0: new USB bus registered, assigned bus number 3
+[Wed Sep 23 16:30:28 2026] xhci_hcd 0000:3a:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[Wed Sep 23 16:30:28 2026] xhci_hcd 0000:3a:00.0: xHCI Host Controller
+[Wed Sep 23 16:30:28 2026] xhci_hcd 0000:3a:00.0: new USB bus registered, assigned bus number 4
+[Wed Sep 23 16:30:28 2026] xhci_hcd 0000:3a:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[Wed Sep 23 16:30:28 2026] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.12
+[Wed Sep 23 16:30:28 2026] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 16:30:28 2026] usb usb3: Product: xHCI Host Controller
+[Wed Sep 23 16:30:28 2026] usb usb3: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 16:30:28 2026] usb usb3: SerialNumber: 0000:3a:00.0
+[Wed Sep 23 16:30:28 2026] hub 3-0:1.0: USB hub found
+[Wed Sep 23 16:30:28 2026] hub 3-0:1.0: 2 ports detected
+[Wed Sep 23 16:30:28 2026] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.12
+[Wed Sep 23 16:30:28 2026] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Wed Sep 23 16:30:28 2026] usb usb4: Product: xHCI Host Controller
+[Wed Sep 23 16:30:28 2026] usb usb4: Manufacturer: Linux 6.12.107+deb13-amd64 xhci-hcd
+[Wed Sep 23 16:30:28 2026] usb usb4: SerialNumber: 0000:3a:00.0
+[Wed Sep 23 16:30:28 2026] hub 4-0:1.0: USB hub found
+[Wed Sep 23 16:30:28 2026] hub 4-0:1.0: 2 ports detected
+[Wed Sep 23 16:30:29 2026] pci_bus 0000:04: Allocating resources
+[Wed Sep 23 16:30:29 2026] pci_bus 0000:3a: Allocating resources
+[Wed Sep 23 16:37:21 2026] audit: type=1400 audit(1790174241.198:126): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=5156 comm="Xorg" capability=12  capname="net_admin"
+[Wed Sep 23 16:37:21 2026] Lockdown: Xorg: raw io port access is restricted; see man kernel_lockdown.7
+[Wed Sep 23 16:37:21 2026] audit: type=1400 audit(1790174241.214:127): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=5156 comm="Xorg" capability=26  capname="sys_tty_config"
+[Wed Sep 23 16:37:21 2026] audit: type=1400 audit(1790174241.786:128): apparmor="ALLOWED" operation="capable" class="cap" profile="Xorg" pid=5163 comm="sh" capability=2  capname="dac_read_search"
+[Wed Sep 23 16:47:34 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:47:34 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:47:34 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:47:34 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:47:38 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:47:38 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:47:38 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:47:38 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:47:38 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:47:38 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:47:38 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:47:41 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:47:41 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:47:41 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:47:41 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:47:41 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:47:41 2026] wlp0s20f3: associated
+[Wed Sep 23 16:47:43 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:47:43 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:47:43 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:1
+[Wed Sep 23 16:47:46 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:47:46 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:47:46 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:47:46 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:47:46 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:47:46 2026] wlp0s20f3: associated
+[Wed Sep 23 16:47:59 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:47:59 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:47:59 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:47:59 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:47:59 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:47:59 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:48:05 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:48:05 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:48:05 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:48:05 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:48:05 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:48:05 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:48:05 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:48:08 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:48:08 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:48:08 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:48:08 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:48:08 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:48:08 2026] wlp0s20f3: associated
+[Wed Sep 23 16:48:11 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:48:11 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:48:12 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:48:12 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:48:12 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:48:12 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:1
+[Wed Sep 23 16:48:12 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:48:12 2026] iwlwifi 0000:00:14.3: missed_beacons:22, missed_beacons_since_rx:2
+[Wed Sep 23 16:48:12 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:48:12 2026] iwlwifi 0000:00:14.3: missed_beacons:23, missed_beacons_since_rx:3
+[Wed Sep 23 16:48:12 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:48:12 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:48:12 2026] iwlwifi 0000:00:14.3: missed_beacons:25, missed_beacons_since_rx:1
+[Wed Sep 23 16:48:14 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:48:14 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:48:14 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:48:14 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:48:14 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:48:14 2026] wlp0s20f3: associated
+[Wed Sep 23 16:48:29 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:48:45 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:48:45 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:48:45 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:48:45 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:48:45 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:48:45 2026] wlp0s20f3: associated
+[Wed Sep 23 16:49:06 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:49:06 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:49:06 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:49:06 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:49:06 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:49:06 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:49:06 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:49:09 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:49:09 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:49:09 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:49:09 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:49:09 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:49:09 2026] wlp0s20f3: associated
+[Wed Sep 23 16:50:28 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:50:28 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:51:21 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:51:21 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:51:21 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:51:21 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:51:24 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:51:24 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:51:24 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:51:24 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:51:24 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:51:24 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:51:24 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:51:26 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:51:26 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:51:26 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:51:26 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:51:26 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:51:26 2026] wlp0s20f3: associated
+[Wed Sep 23 16:54:39 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:54:39 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:54:39 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:54:39 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:54:39 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:54:39 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:55:04 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:55:04 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:55:04 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:55:04 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:55:09 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:55:09 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:55:09 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:55:09 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:55:09 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:55:09 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:55:10 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:55:12 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:55:12 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:55:12 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:55:12 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:55:12 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:55:12 2026] wlp0s20f3: associated
+[Wed Sep 23 16:57:26 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:26 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:26 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:26 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:57:26 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:26 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:57:26 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:57:28 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:57:28 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:57:28 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:57:28 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:57:28 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:57:28 2026] wlp0s20f3: associated
+[Wed Sep 23 16:57:30 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:30 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:30 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:30 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:57:31 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:31 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:31 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:31 2026] iwlwifi 0000:00:14.3: missed_beacons:22, missed_beacons_since_rx:2
+[Wed Sep 23 16:57:31 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:31 2026] iwlwifi 0000:00:14.3: missed_beacons:23, missed_beacons_since_rx:3
+[Wed Sep 23 16:57:31 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:57:31 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:31 2026] iwlwifi 0000:00:14.3: missed_beacons:25, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:33 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:57:33 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:57:33 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:57:33 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:57:33 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:57:33 2026] wlp0s20f3: associated
+[Wed Sep 23 16:57:37 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:57:37 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:37 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:40 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:57:40 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:57:40 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:57:40 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:57:40 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:57:40 2026] wlp0s20f3: associated
+[Wed Sep 23 16:57:42 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:42 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:42 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:42 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:42 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:42 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:44 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:57:44 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:44 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:46 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:57:46 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:57:46 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:57:46 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:57:46 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:57:46 2026] wlp0s20f3: associated
+[Wed Sep 23 16:57:49 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:49 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:49 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:49 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:57:49 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:49 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:57:49 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:57:50 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:57:50 2026] iwlwifi 0000:00:14.3: missed_beacons:23, missed_beacons_since_rx:1
+[Wed Sep 23 16:57:59 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:57:59 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:57:59 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:57:59 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:57:59 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:57:59 2026] wlp0s20f3: associated
+[Wed Sep 23 16:58:01 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:01 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:01 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:01 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:58:01 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:01 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:02 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:02 2026] iwlwifi 0000:00:14.3: missed_beacons:22, missed_beacons_since_rx:2
+[Wed Sep 23 16:58:02 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:02 2026] iwlwifi 0000:00:14.3: missed_beacons:23, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:02 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:02 2026] iwlwifi 0000:00:14.3: missed_beacons:24, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:04 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:04 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:2
+[Wed Sep 23 16:58:04 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:04 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:3
+[Wed Sep 23 16:58:04 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:58:04 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:04 2026] iwlwifi 0000:00:14.3: missed_beacons:22, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:07 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:58:07 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:58:07 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 2/3)
+[Wed Sep 23 16:58:07 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:58:07 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:58:07 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:58:07 2026] wlp0s20f3: associated
+[Wed Sep 23 16:58:09 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:58:09 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:09 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:11 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:58:11 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:58:11 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:58:11 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:58:11 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:58:11 2026] wlp0s20f3: associated
+[Wed Sep 23 16:58:14 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:14 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:2
+[Wed Sep 23 16:58:14 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:14 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:3
+[Wed Sep 23 16:58:14 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:58:15 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:15 2026] iwlwifi 0000:00:14.3: missed_beacons:22, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:24 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:58:24 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:58:24 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:58:24 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:58:24 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:58:24 2026] wlp0s20f3: associated
+[Wed Sep 23 16:58:28 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:28 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:3
+[Wed Sep 23 16:58:28 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:58:28 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:28 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:31 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:58:31 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:58:31 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:58:31 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:58:31 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:58:31 2026] wlp0s20f3: associated
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:2
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:3
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed_beacons:22, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed_beacons:23, missed_beacons_since_rx:2
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed_beacons:24, missed_beacons_since_rx:3
+[Wed Sep 23 16:58:33 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:58:33 2026] iwlwifi 0000:00:14.3: missed_beacons:26, missed_beacons_since_rx:1
+[Wed Sep 23 16:58:36 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:58:36 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:58:36 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:58:36 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:58:36 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:58:36 2026] wlp0s20f3: associated
+[Wed Sep 23 16:59:24 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:59:24 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:59:24 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:59:24 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:59:24 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:59:24 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:59:24 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:59:27 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:59:27 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:59:27 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:59:27 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:59:27 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:59:27 2026] wlp0s20f3: associated
+[Wed Sep 23 16:59:54 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:59:54 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 16:59:54 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:59:54 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 16:59:55 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 16:59:55 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 16:59:55 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 16:59:57 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 16:59:57 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:59:57 2026] wlp0s20f3: authenticated
+[Wed Sep 23 16:59:57 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 16:59:57 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 16:59:57 2026] wlp0s20f3: associated
+[Wed Sep 23 17:00:09 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:00:09 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 17:00:10 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:00:10 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 17:00:50 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:00:50 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 17:00:50 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:00:50 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 17:00:50 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:00:50 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 17:00:52 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:00:52 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 17:00:52 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:00:52 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 17:00:52 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:00:52 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 17:00:52 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 17:00:55 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 17:00:55 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:00:55 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 2/3)
+[Wed Sep 23 17:00:55 2026] wlp0s20f3: authenticated
+[Wed Sep 23 17:00:55 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:00:55 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 17:00:55 2026] wlp0s20f3: associated
+[Wed Sep 23 17:00:59 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:00:59 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:2
+[Wed Sep 23 17:02:31 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:02:31 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 17:02:31 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:02:31 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 17:02:31 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:02:31 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 17:02:31 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 17:02:34 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 17:02:34 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:02:34 2026] wlp0s20f3: authenticated
+[Wed Sep 23 17:02:34 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:02:34 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 17:02:34 2026] wlp0s20f3: associated
+[Wed Sep 23 17:02:37 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 17:02:37 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:02:37 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:1
+[Wed Sep 23 17:02:39 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 17:02:39 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:02:39 2026] wlp0s20f3: authenticated
+[Wed Sep 23 17:02:39 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:02:39 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 17:02:39 2026] wlp0s20f3: associated
+[Wed Sep 23 17:04:34 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:04:34 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 17:04:34 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:04:34 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 17:04:34 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:04:34 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 17:04:35 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 17:04:37 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 17:04:37 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:04:37 2026] wlp0s20f3: authenticated
+[Wed Sep 23 17:04:37 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:04:37 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 17:04:37 2026] wlp0s20f3: associated
+[Wed Sep 23 17:04:46 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 17:04:48 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 17:04:48 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:04:48 2026] wlp0s20f3: authenticated
+[Wed Sep 23 17:04:48 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:04:48 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 2/3)
+[Wed Sep 23 17:04:48 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 17:04:48 2026] wlp0s20f3: associated
+[Wed Sep 23 17:04:51 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 17:04:51 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:04:51 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:1
+[Wed Sep 23 17:04:53 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 17:04:53 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:04:53 2026] wlp0s20f3: authenticated
+[Wed Sep 23 17:04:53 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:04:53 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 17:04:53 2026] wlp0s20f3: associated
+[Wed Sep 23 17:06:07 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:06:07 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:1
+[Wed Sep 23 17:06:07 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:06:07 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:2
+[Wed Sep 23 17:06:07 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:06:07 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:3
+[Wed Sep 23 17:06:07 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 17:06:10 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 17:06:10 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:06:10 2026] wlp0s20f3: authenticated
+[Wed Sep 23 17:06:10 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:06:10 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 17:06:10 2026] wlp0s20f3: associated
+[Wed Sep 23 17:06:17 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 17:06:20 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 17:06:20 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:06:20 2026] wlp0s20f3: authenticated
+[Wed Sep 23 17:06:20 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:06:20 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 17:06:20 2026] wlp0s20f3: associated
+[Wed Sep 23 17:06:32 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Wed Sep 23 17:06:32 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:3
+[Wed Sep 23 17:06:32 2026] wlp0s20f3: Connection to AP 70:8b:cd:89:d8:20 lost
+[Wed Sep 23 17:06:35 2026] wlp0s20f3: authenticate with 70:8b:cd:89:d8:20 (local address=0c:7a:15:fe:9d:1d)
+[Wed Sep 23 17:06:35 2026] wlp0s20f3: send auth to 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:06:35 2026] wlp0s20f3: authenticated
+[Wed Sep 23 17:06:35 2026] wlp0s20f3: associate with 70:8b:cd:89:d8:20 (try 1/3)
+[Wed Sep 23 17:06:35 2026] wlp0s20f3: RX AssocResp from 70:8b:cd:89:d8:20 (capab=0x411 status=0 aid=1)
+[Wed Sep 23 17:06:35 2026] wlp0s20f3: associated
