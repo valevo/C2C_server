@@ -1,0 +1,3 @@
+echo 0x106 | sudo tee /sys/module/drm/parameters/debug    # detailed display-driver logging (until reboot)
+# ... reproduce the blackout ...
+sudo dmesg -T > scripts/test-screen/dmesg-black.txt

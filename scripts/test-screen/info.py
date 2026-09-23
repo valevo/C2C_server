@@ -69,7 +69,8 @@ def main() -> None:
         print(f"{'':10} preferred {modes[0] if modes else '(no modes)'}"
               f"{', also ' + ' '.join(modes[1:6]) if modes[1:] else ''}")
 
-    mst = sorted(Path("/sys/kernel/debug/dri").glob("*/i915_dp_mst_info"))
+    # dri/0, dri/128 and dri/0000:00:02.0 are the same GPU
+    mst = sorted({f.resolve() for f in Path("/sys/kernel/debug/dri").glob("*/i915_dp_mst_info")})
     if mst:
         for f in mst:
             print(f"\n== {f} ==")
