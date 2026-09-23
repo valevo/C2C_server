@@ -9,9 +9,10 @@ hub's own sockets are (many hubs have HDMI sockets), so when any are connected,
 exactly those count. The NUC8's HDMI port is never MST — but it is named DP-x
 too, as it's driven by an on-board DP-to-HDMI converter (LSPCON).
 
-Without an MST hub, plain DP-x outputs count unless their screen's EDID says it
-is an HDMI screen (see is_hdmi_screen) — which catches the HDMI port only if the
-screen sends a full EDID.
+Without an MST hub, plain DP-x outputs count unless the driver reports an HDMI
+(or DVI/VGA) plug on them — xrandr's `subconnector` property, which is how the
+NUC8's HDMI port shows up — or their screen's EDID says it is an HDMI screen
+(see is_hdmi_screen; not every HDMI screen sends that, e.g. Samsung S24C650).
 
 Used by scripts/setup-displays.sh and scripts/test-screen/show.py.
 """
@@ -41,20 +42,34 @@ def connected() -> dict[str, tuple[int, int, int, int] | None]:
     return found
 
 
-def edids() -> dict[str, bytes]:
-    """Output name -> EDID of the connected screen, from `xrandr --props`."""
+def mst_ports() -> list[str]:
+    """All MST hub outputs X knows about, connected or not."""
+    names = [line.split()[0] for line in xrandr("--query").splitlines() if line[:1].strip()]
+    return sorted((n for n in names if MST_RE.match(n)), key=natural_key)
+
+
+def props() -> dict[str, dict]:
+    """Output name -> {"edid": bytes, "subconnector": str}, from `xrandr --props`."""
     found, name, hexdata = {}, None, None
     for line in xrandr("--props").splitlines():
         if not line[:1].isspace():                  # "DP-1 connected ..." starts an output
             name = line.split()[0]
-        elif line.strip() == "EDID:":
-            hexdata = found[name] = ""
+            found[name] = {"edid": "", "subconnector": ""}
             continue
+        key, _, value = line.strip().partition(":")
+        if key == "EDID":
+            hexdata = ""
+            continue
+        if key == "subconnector":
+            found[name]["subconnector"] = value.strip()
         if hexdata is not None and re.fullmatch(r"[0-9a-f]+", line.strip()):
-            hexdata = found[name] = hexdata + line.strip()
+            hexdata += line.strip()
+            found[name]["edid"] = hexdata
         else:
             hexdata = None
-    return {n: bytes.fromhex(h) for n, h in found.items()}
+    for p in found.values():
+        p["edid"] = bytes.fromhex(p["edid"])
+    return found
 
 
 def is_hdmi_screen(edid: bytes) -> bool:
@@ -87,12 +102,17 @@ def dp_screens(outputs=None, log=None) -> list[str]:
             if name not in mst and log:
                 log(f"ignoring {name}: not behind the MST hub")
         return mst
-    screens = edids()
+    if (ports := mst_ports()) and log:
+        log(f"MST hub found ({', '.join(ports)}) but no screen detected behind it")
+    info = props()
     found = []
     for name in names:
+        p = info.get(name, {"edid": b"", "subconnector": ""})
         if not name.startswith("DP"):
             reason = "not DisplayPort"
-        elif is_hdmi_screen(screens.get(name, b"")):
+        elif p["subconnector"] in ("HDMI", "DVI-D", "VGA"):
+            reason = f"{p['subconnector']} plug (the NUC's HDMI port or an adapter)"
+        elif is_hdmi_screen(p["edid"]):
             reason = "HDMI screen (HDMI port or DP-to-HDMI adapter)"
         else:
             found.append(name)

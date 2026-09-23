@@ -7,8 +7,8 @@
 #   ./run.sh DP-1-2     just this output
 #
 # Any key or click closes the pattern and X. Afterwards the viewer's messages
-# are printed again and saved, with xrandr's view of the screens, to
-# /tmp/c2c-test-screen.log.
+# are printed again and saved, with xrandr's view of the screens and the
+# kernel's graphics messages, to /tmp/c2c-test-screen.log.
 set -euo pipefail
 
 DIR=$(cd "$(dirname "$0")" && pwd)
@@ -43,6 +43,16 @@ xinit /bin/bash -c '
     { echo "== xrandr after =="; xrandr; } >> "$log" 2>&1
 ' _ "$LOG" "$DIR" "$@" -- ":$disp" "vt$vt" -nolisten tcp || true
 
+# The graphics driver's side: MST/link-training errors never reach xrandr
+{
+    echo "== kernel messages =="
+    sudo dmesg -T | grep -iE 'i915|drm|mst|link.?train' | tail -n 300
+    echo "== i915 debugfs =="
+    sudo sh -c 'for f in /sys/kernel/debug/dri/*/i915_dp_mst_info /sys/kernel/debug/dri/*/i915_display_info; do
+        [ -e "$f" ] && { echo "-- $f"; cat "$f"; }
+    done'
+} >> "$LOG" 2>&1 || true
+
 echo
 sed -n '/^== show.py ==$/,/^== xrandr after ==$/p' "$LOG" | sed '1d;$d'
-echo "run.sh: full log (with EDIDs) in $LOG"
+echo "run.sh: full log (with EDIDs and kernel messages) in $LOG"

@@ -32,13 +32,23 @@ DisplayPort output, because an on-board DP-to-HDMI converter drives it, so the
 name prefix doesn't help. Screens behind the MST hub, however, always get
 sub-numbered names (`DP-2-1`, `DP-2-2`, …) — even if the hub has HDMI sockets —
 so when any are connected, only those are used. Without a hub, plain `DP-x`
-screens are used unless their EDID identifies them as HDMI screens (see
-`c2c/screens.py`).
+screens are used unless the graphics driver reports an HDMI plug on them
+(`subconnector: HDMI` in `xrandr --props`, which is how the HDMI port shows up)
+or their EDID identifies them as HDMI screens (see `c2c/screens.py`).
+
+If the hub is plugged in but none of its screens are detected, the viewer says
+`MST hub found (DP-2-1, …) but no screen detected behind it` — then it's the
+hub, cables or screens, not the software.
 
 After X closes, `run.sh` prints the viewer's messages again (which outputs
 were found, ignored and used) and saves them to `/tmp/c2c-test-screen.log`,
 together with `xrandr`'s view of the screens before and after, including
-their EDIDs — send that file along when something looks wrong.
+their EDIDs, and the graphics driver's kernel messages and MST/display state
+(`dmesg`, `/sys/kernel/debug/dri/*/i915_dp_mst_info` and `i915_display_info`;
+this asks for the sudo password) — send that file along when something looks
+wrong. Screens going black when a second one is plugged into the hub (not
+enough DisplayPort bandwidth, failed link training) only show up in the kernel
+part.
 
 The NUC8's GPU drives at most 3 screens, so with the MST hub's three screens
 and the HDMI screen connected, the HDMI screen is switched off while the test
