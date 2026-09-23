@@ -2,20 +2,20 @@
 
 ## Machine
 
-Intel NUC8i5BEH (“Bean Canyon”). Relevant I/O:
+Intel NUC 11 Essential, **SWNUC11ATKC4000** (NUC11ATKC4, “Atlas Canyon”):
+Celeron N4500 with Intel UHD Graphics. Relevant I/O:
 
-- 1 × **HDMI 2.0a** → screen 1
-- 1 × **USB-C / Thunderbolt 3** carrying **DisplayPort 1.2** → screens 2 + 3
-  via an **MST hub** (USB-C → 2× DisplayPort). The Iris Plus 655 iGPU drives
-  up to 3 independent displays.
+- 1 × **DisplayPort** → **MST hub** → screens 1–3. The iGPU drives up to 3
+  independent displays (check with the test viewer that the hub really gives
+  3 separate outputs); the HDMI port is not used.
 - 1 × Gigabit Ethernet → installation LAN
 - M.2 SSD (OS + database), optional 2.5" SATA bay
 
 Buy/have on site:
 
-- USB-C (DP alt mode) → dual DisplayPort **MST hub** (not a plain splitter —
-  a splitter mirrors, MST gives independent outputs)
-- Spare HDMI/DP cables one size longer than you think you need
+- 3-port DisplayPort **MST hub** (not a plain splitter — a splitter mirrors
+  the same picture to every screen, MST gives independent outputs)
+- Spare DP cables one size longer than you think you need
 
 ## BIOS settings (F2 at boot)
 
@@ -35,5 +35,5 @@ change settings.
 ## Physical checklist for the venue
 
 - Mount the NUC with airflow around the vents (not sealed in a plinth without holes)
-- Zip-tie/strain-relieve HDMI, USB-C and power — connectors work loose over weeks
+- Zip-tie/strain-relieve DP and power — connectors work loose over weeks
 - Label both ends of every cable

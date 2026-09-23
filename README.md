@@ -1,21 +1,22 @@
-# Comment2Conversation — Server Setup (Intel NUC8BEH)
+# Comment2Conversation — Server Setup (Intel NUC 11 Essential)
 
-Instructions, install scripts and config files for setting up an Intel NUC8i5BEH
-(“Bean Canyon”) as the server of the *Comment2Conversation* interactive
-installation.
+Instructions, install scripts and config files for setting up an Intel NUC 11
+Essential (SWNUC11ATKC4000, “Atlas Canyon”) as the server of the
+*Comment2Conversation* interactive installation.
 
 ## What the machine does
 
 - Maintains a small **SQLite database** of user inputs
 - Receives user input over the **LAN** (HTTP API on the wired interface)
-- Renders **image data to 3 screens** via HDMI + USB-C/DisplayPort
+- Renders **image data to 3 screens** via DisplayPort + an MST hub
 - Keeps an **outbound SSH reverse tunnel** open for remote maintenance
 
 ```
- visitors ──LAN──▶ ┌─────────────────────┐ ──HDMI──────▶ screen 1
-                   │  NUC8BEH  (c2c)     │ ──USB-C/DP──▶ screen 2 (MST hub)
-                   │  Debian 13 (trixie) │ ──USB-C/DP──▶ screen 3 (MST hub)
-                   └─────────┬───────────┘
+                                                       ┌──────────▶ screen 1
+ visitors ──LAN──▶ ┌─────────────────────┐    ┌─────────┐ │
+                   │  NUC  (c2c)         │─DP─▶ MST hub ├─┼──────────▶ screen 2
+                   │  Debian 13 (trixie) │    └─────────┘ │
+                   └─────────┬───────────┘                └──────────▶ screen 3
                              └──autossh reverse tunnel──▶ maintenance host
 ```
 
