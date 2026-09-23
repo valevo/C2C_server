@@ -58,6 +58,17 @@ runs.
 elsewhere; make others with `python3 make_pattern.py 3840x2160` or, for a row,
 `python3 make_pattern.py 1920+1920+1920x1080 row.png`.
 
+To just see which screens are connected, without starting X (works over SSH
+and while the screens are black):
+
+```sh
+python3 info.py         # each output: connected or not, screen model, modes
+sudo python3 info.py    # plus the graphics driver's view of the MST hub
+```
+
+These are the kernel's output names (`DP-3`, `DP-4`, … behind the hub), which
+differ from xrandr's (`DP-2-1`, …); match them up by screen model.
+
 If no DisplayPort output (or a named output) is connected, `show.py` exits and
 prints `xrandr`'s list of outputs. Any key or mouse click closes it.
 
