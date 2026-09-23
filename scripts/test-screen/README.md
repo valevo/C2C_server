@@ -7,7 +7,7 @@ On the NUC, from a text console (Ctrl+Alt+F2 — not over SSH):
 
 ```sh
 cd scripts/test-screen
-./run.sh            # every connected DisplayPort screen, HDMI ignored
+./run.sh            # the MST hub's screens, HDMI port ignored
 ./run.sh all        # every connected output, HDMI included
 ./run.sh DP-1-2     # one specific output
 ```
@@ -27,12 +27,18 @@ were used.
 The pattern is generated to fit the row of screens (a few seconds the first
 time, then cached in `/tmp`).
 
-HDMI screens are ignored. On the NUC8 that takes more than looking at the
-output name: its HDMI port is driven by an on-board DP-to-HDMI converter, so
-X calls it `DP-1` (or similar) too. `show.py` therefore reads each screen's
-EDID and skips screens that identify as HDMI — which also skips an HDMI screen
-on a DP-to-HDMI adapter. With only an HDMI screen attached, nothing is shown
-and X exits straight away.
+The NUC8's HDMI port is ignored. It is named `DP-1` (or similar) like a real
+DisplayPort output, because an on-board DP-to-HDMI converter drives it, so the
+name prefix doesn't help. Screens behind the MST hub, however, always get
+sub-numbered names (`DP-2-1`, `DP-2-2`, …) — even if the hub has HDMI sockets —
+so when any are connected, only those are used. Without a hub, plain `DP-x`
+screens are used unless their EDID identifies them as HDMI screens (see
+`c2c/screens.py`).
+
+After X closes, `run.sh` prints the viewer's messages again (which outputs
+were found, ignored and used) and saves them to `/tmp/c2c-test-screen.log`,
+together with `xrandr`'s view of the screens before and after, including
+their EDIDs — send that file along when something looks wrong.
 
 The NUC8's GPU drives at most 3 screens, so with the MST hub's three screens
 and the HDMI screen connected, the HDMI screen is switched off while the test

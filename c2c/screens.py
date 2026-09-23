@@ -1,12 +1,17 @@
-"""Which X outputs drive DisplayPort screens, as opposed to HDMI ones.
+"""Which X outputs are the exhibition screens: the ones on the DisplayPort MST hub.
 
-    python -m c2c.screens      print the connected DisplayPort screens, one per line,
-                               in name order (DP-1-1, DP-1-2, DP-1-3); reasons for
-                               skipped outputs go to stderr
+    python -m c2c.screens      print them, one per line, in name order (DP-1-1,
+                               DP-1-2, DP-1-3); reasons for skipped outputs go to
+                               stderr
 
-Output names alone aren't enough: the NUC8's HDMI port is driven by an on-board
-DP-to-HDMI converter (LSPCON), so X names it DP-x like a real DisplayPort output.
-The screen's EDID tells them apart (see is_hdmi_screen).
+Screens behind an MST hub get sub-numbered names (DP-<port>-<n>), whatever the
+hub's own sockets are (many hubs have HDMI sockets), so when any are connected,
+exactly those count. The NUC8's HDMI port is never MST — but it is named DP-x
+too, as it's driven by an on-board DP-to-HDMI converter (LSPCON).
+
+Without an MST hub, plain DP-x outputs count unless their screen's EDID says it
+is an HDMI screen (see is_hdmi_screen) — which catches the HDMI port only if the
+screen sends a full EDID.
 
 Used by scripts/setup-displays.sh and scripts/test-screen/show.py.
 """
@@ -17,6 +22,8 @@ import sys
 
 # "DP-1-1 connected 1920x1080+1920+0 (normal ..."   /   "DP-1-2 connected (normal ..."
 OUTPUT_RE = re.compile(r"^(\S+) connected(?: primary)?(?: (\d+)x(\d+)\+(\d+)\+(\d+))?")
+
+MST_RE = re.compile(r"^DP-?\d+-\d+$")   # DP-1-1 (modesetting), DP1-1 (intel driver)
 
 HDMI_OUIS = (b"\x03\x0c\x00", b"\xd8\x5d\xc4")    # HDMI Licensing 00-0C-03, HDMI Forum C4-5D-D8
 
@@ -71,11 +78,18 @@ def natural_key(name: str) -> list:
 
 
 def dp_screens(outputs=None, log=None) -> list[str]:
-    """Connected DisplayPort screens in name order; HDMI screens are skipped."""
+    """Connected exhibition screens in name order: the MST hub's screens if any are
+    connected, else DisplayPort screens that aren't HDMI screens."""
     outputs = connected() if outputs is None else outputs
+    names = sorted(outputs, key=natural_key)
+    if mst := [n for n in names if MST_RE.match(n)]:
+        for name in names:
+            if name not in mst and log:
+                log(f"ignoring {name}: not behind the MST hub")
+        return mst
     screens = edids()
     found = []
-    for name in sorted(outputs, key=natural_key):
+    for name in names:
         if not name.startswith("DP"):
             reason = "not DisplayPort"
         elif is_hdmi_screen(screens.get(name, b"")):

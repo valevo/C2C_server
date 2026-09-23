@@ -17,7 +17,8 @@ when hot-plugged.
 
 An HDMI screen can stay connected during build-up. It is never used as an
 exhibition screen — even though the NUC8's HDMI port shows up as `DP-x` too:
-[`c2c/screens.py`](../c2c/screens.py) recognises HDMI screens by their EDID.
+[`c2c/screens.py`](../c2c/screens.py) only uses the outputs behind the MST hub,
+which have sub-numbered names (`DP-2-1`, …).
 
 The NUC8's GPU drives **at most 3 screens at once**, and each screen on the MST
 hub counts. So once all three exhibition screens are connected, the HDMI screen
