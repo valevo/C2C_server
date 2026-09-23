@@ -2,7 +2,7 @@
 # Show the test pattern on the screens. Run on the NUC from a text console
 # (Ctrl+Alt+F2), not over SSH:
 #
-#   ./run.sh            every connected DisplayPort output
+#   ./run.sh            every connected DisplayPort screen (HDMI screens ignored)
 #   ./run.sh all        every connected output
 #   ./run.sh DP-1-2     just this output
 #
@@ -27,8 +27,6 @@ if ! python3 -c 'import tkinter' 2>/dev/null; then
     echo "run.sh: installing python3-tk"
     sudo apt-get install -y python3-tk
 fi
-
-[ -f "$DIR/test-pattern.png" ] || python3 "$DIR/make_pattern.py" 1920x1080 "$DIR/test-pattern.png"
 
 # First free X display number (normally :0)
 disp=0

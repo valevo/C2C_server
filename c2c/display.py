@@ -1,4 +1,4 @@
-"""Render the frontend on every connected screen: one kiosk browser window per output.
+"""Render the frontend on the exhibition screens: one kiosk browser window per output.
 
 Started by scripts/setup-displays.sh (via `python -m c2c.display`) after xrandr has
 arranged the outputs. Screen geometry is read back from `xrandr --listmonitors`, so
@@ -7,7 +7,9 @@ the layout only has to be defined once, in the setup script.
 Each window loads C2C_DISPLAY_URL with `screen=<n>` appended (1 = leftmost), so the
 frontend can tell the screens apart. Windows that exit or crash are restarted.
 
-Environment (from /etc/c2c/c2c.env):
+Environment (from /etc/c2c/c2c.env, C2C_OUTPUTS set by setup-displays.sh):
+    C2C_OUTPUTS          outputs to render to, left to right (default: all active
+                         monitors); others, e.g. an HDMI dev screen, are left alone
     C2C_DISPLAY_URL      page to show (default http://127.0.0.1:$C2C_PORT/)
     C2C_BROWSER          browser binary (default chromium)
 """
@@ -110,6 +112,12 @@ def main() -> int:
         return 1
 
     monitors = list_monitors()
+    if wanted := os.environ.get("C2C_OUTPUTS", "").split():
+        active = {m.name: m for m in monitors}
+        if missing := [n for n in wanted if n not in active]:
+            log(f"outputs not active: {' '.join(missing)}")
+            return 1
+        monitors = [active[n] for n in wanted]
     if not monitors:
         log("no active monitors reported by xrandr")
         return 1

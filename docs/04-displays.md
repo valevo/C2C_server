@@ -13,6 +13,29 @@ labels = MST, the same label everywhere = splitter.
 Connect all screens *before* booting — some MST hubs enumerate unreliably
 when hot-plugged.
 
+## HDMI dev screen during build-up
+
+An HDMI screen can stay connected during build-up. It is never used as an
+exhibition screen — even though the NUC8's HDMI port shows up as `DP-x` too:
+[`c2c/screens.py`](../c2c/screens.py) recognises HDMI screens by their EDID.
+
+The NUC8's GPU drives **at most 3 screens at once**, and each screen on the MST
+hub counts. So once all three exhibition screens are connected, the HDMI screen
+is switched off while the exhibition runs (`setup-displays.sh` logs this). Use
+it for the text console instead (Ctrl+Alt+F2), or connect fewer hub screens
+during development (set `C2C_SCREENS=2` in `/etc/c2c/c2c.env`).
+
+When a display pipe is free, `setup-displays.sh` places the HDMI screen to the
+right of the exhibition screens and leaves it empty for dev windows. There is
+no window manager, so place them when opening — e.g. with two 1920 px
+exhibition screens the HDMI screen starts at x = 3840:
+
+```sh
+DISPLAY=:0 chromium --user-data-dir=/tmp/dev --window-position=3840,0 --window-size=1920,1080 http://127.0.0.1:8080/
+```
+
+Unplug it for the exhibition; nothing needs to be changed.
+
 ## Graphical stack
 
 Minimal X11 session, no desktop environment, no display manager. The

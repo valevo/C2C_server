@@ -1,47 +1,69 @@
 #!/usr/bin/env python3
-"""Show an image fullscreen on X outputs, each labelled with the output's name.
+"""Stretch a test pattern across X outputs, each labelled with the output's name.
 
     python3 show.py [OUTPUT ... | all] [--image FILE]
 
-    (no output)   every connected DisplayPort output (DP-1, DP-1-1, DP-1-2, ...)
+    (no output)   every connected DisplayPort screen (DP-1-1, DP-1-2, ...);
+                  HDMI screens are ignored, including ones on the NUC8's HDMI
+                  port, which Linux also names DP-x (see c2c/screens.py)
     all           every connected output, HDMI included
     OUTPUT ...    just these, e.g.  python3 show.py DP-1-1
 
-Connected outputs that X left switched off are enabled to the right of the
-others. Needs a running X server (see README.md) and python3-tk.
-Any key or click quits.
+The chosen outputs are arranged side by side (in the order given, else name
+order) and one pattern the size of the whole row is drawn across them: colour
+bars, grid and grey ramp continue from screen to screen, and each screen gets
+its own border and circle. Other connected outputs are
+placed to the right if the GPU has a display pipe left for them (the NUC8
+drives at most 3 screens), else switched off.
+
+--image FILE shows FILE across the row instead, unscaled, from the top left.
+Needs a running X server (see README.md) and python3-tk. Any key or click quits.
 """
 
-import re
 import subprocess
 import sys
+import tempfile
 import tkinter as tk
 from pathlib import Path
 
-# "DP-1-1 connected 1920x1080+1920+0 (normal ..."   /   "DP-1-2 connected (normal ..."
-OUTPUT_RE = re.compile(r"^(\S+) connected(?: primary)?(?: (\d+)x(\d+)\+(\d+)\+(\d+))?")
+import make_pattern
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))   # repo root, for c2c.screens
+from c2c.screens import connected, dp_screens  # noqa: E402
 
 
-def connected() -> dict[str, tuple[int, int, int, int] | None]:
-    """Connected outputs -> (w, h, x, y), or None if connected but switched off."""
-    out = subprocess.run(["xrandr", "--query"], capture_output=True, text=True, check=True).stdout
-    found = {}
-    for line in out.splitlines():
-        if m := OUTPUT_RE.match(line):
-            found[m[1]] = tuple(map(int, m.group(2, 3, 4, 5))) if m[2] else None
-    return found
+def arrange(targets: list[str], others: list[str]) -> None:
+    """Targets side by side from 0x0, each in its preferred mode. Others are switched
+    off first (they may hold a display pipe a target needs), then re-added to the
+    right one by one while the GPU still has a pipe free."""
+    args = [a for n in others for a in ("--output", n, "--off")]
+    args += ["--output", targets[0], "--auto", "--pos", "0x0"]
+    for prev, name in zip(targets, targets[1:]):
+        args += ["--output", name, "--auto", "--right-of", prev]
+    subprocess.run(["xrandr", *args], check=True)
+    last = targets[-1]
+    for name in others:
+        if subprocess.run(["xrandr", "--output", name, "--auto", "--right-of", last],
+                          capture_output=True).returncode == 0:
+            print(f"{name}: placed right of the pattern", flush=True)
+            last = name
+        else:
+            print(f"{name}: switched off (no display pipe left)", flush=True)
 
 
-def enable(names: list[str]) -> None:
-    """Switch on connected-but-off outputs, placed right of everything already on."""
-    for name in names:
-        right = max((w + x for w, h, x, y in filter(None, connected().values())), default=0)
-        subprocess.run(["xrandr", "--output", name, "--auto", "--pos", f"{right}x0"], check=True)
+def pattern(widths: list[int], h: int) -> str:
+    """Test pattern for a row of screens, generated once and cached in /tmp."""
+    size = "+".join(map(str, widths)) + f"x{h}"
+    path = Path(tempfile.gettempdir()) / f"c2c-test-pattern-{size}.png"
+    if not path.exists():
+        print(f"generating {size} test pattern …", flush=True)
+        make_pattern.write(widths, h, str(path))
+    return str(path)
 
 
 def main() -> None:
     args = sys.argv[1:]
-    image = str(Path(__file__).with_name("test-pattern.png"))
+    image = None
     if "--image" in args:
         i = args.index("--image")
         image = args[i + 1]
@@ -54,20 +76,22 @@ def main() -> None:
     elif args:
         targets = args
     else:
-        targets = [n for n in outputs if n.startswith("DP")]
+        targets = dp_screens(outputs, log=lambda msg: print(msg, flush=True))
 
     missing = [n for n in targets if n not in outputs]
     if not targets or missing:
-        sys.exit(f"not connected: {', '.join(missing) or 'no DisplayPort output'}\n"
+        sys.exit(f"not connected: {', '.join(missing) or 'no DisplayPort screen'}\n"
                  + subprocess.run(["xrandr"], capture_output=True, text=True).stdout)
 
-    enable([n for n in targets if outputs[n] is None])
+    arrange(targets, [n for n in outputs if n not in targets])
     outputs = connected()
-    print("showing on:", ", ".join(targets), flush=True)
+    widths = [outputs[n][0] for n in targets]
+    total_h = max(outputs[n][1] for n in targets)
+    print(f"showing on: {', '.join(targets)} ({sum(widths)}x{total_h})", flush=True)
 
     root = tk.Tk()
     root.withdraw()                                 # only the per-output windows are shown
-    photo = tk.PhotoImage(file=image)
+    photo = tk.PhotoImage(file=image or pattern(widths, total_h))
     for name in targets:
         w, h, x, y = outputs[name]
         win = tk.Toplevel(root)
@@ -75,7 +99,7 @@ def main() -> None:
         win.geometry(f"{w}x{h}+{x}+{y}")            # cover exactly this output
         canvas = tk.Canvas(win, width=w, height=h, bg="black", highlightthickness=0, cursor="none")
         canvas.pack()
-        canvas.create_image(w // 2, h // 2, image=photo)
+        canvas.create_image(-x, -y, image=photo, anchor="nw")   # this output's slice of the row
         canvas.create_text(w // 2, h // 2, fill="white", font=("DejaVu Sans", 48, "bold"),
                            text=f"{name}\n{w}x{h} +{x}+{y}", justify="center")
         win.bind("<Key>", lambda e: root.destroy())
