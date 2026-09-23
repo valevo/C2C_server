@@ -21,6 +21,7 @@ xserver-xorg
 xinit
 x11-xserver-utils
 unclutter
+chromium
 
 # app runtime
 python3-venv

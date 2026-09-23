@@ -16,6 +16,7 @@ TTYPath=/dev/tty1
 StandardInput=tty
 UtmpIdentifier=tty1
 EnvironmentFile=/etc/c2c/c2c.env
+WorkingDirectory=/opt/c2c
 ExecStart=/usr/bin/xinit /opt/c2c/scripts/setup-displays.sh -- :0 vt1 -nolisten tcp -nocursor
 Restart=always
 RestartSec=5

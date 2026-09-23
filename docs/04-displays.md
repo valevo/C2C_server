@@ -21,6 +21,12 @@ The session applies [`scripts/setup-displays.sh`](../scripts/setup-displays.sh)
 on start: it arranges the three outputs side-by-side with `xrandr`, disables
 DPMS/blanking, and hides the cursor (`unclutter`).
 
+It then hands over to [`c2c/display.py`](../c2c/display.py) (`python -m c2c.display`),
+which reads the arranged screens back from `xrandr --listmonitors` and opens one
+Chromium kiosk window per screen on `C2C_DISPLAY_URL` (from `/etc/c2c/c2c.env`),
+appending `screen=1..3` (left to right). It waits for the page to be reachable
+first and relaunches any window that exits.
+
 ## Adapting the layout
 
 1. With the screens attached, list outputs:

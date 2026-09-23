@@ -28,6 +28,8 @@ fi
 
 echo "== scripts =="
 install -o c2c -g c2c -m 755 "$REPO_DIR"/scripts/*.sh /opt/c2c/scripts/
+install -d -o c2c -g c2c /opt/c2c/c2c
+install -o c2c -g c2c -m 644 "$REPO_DIR"/c2c/*.py /opt/c2c/c2c/
 
 echo "== systemd units =="
 install -m 644 "$REPO_DIR"/config/systemd/* /etc/systemd/system/
